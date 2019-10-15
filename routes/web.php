@@ -17,7 +17,7 @@
 Route::group(['middleware' => ['web', 'checkblocked']], function () {
     Route::get('/', 'WebController@index')->name('home');
     Route::post('/reserve/add', 'ReserveController@store')->name('reserve-add');
-    Route::post('/comment/add', 'ReserveController@store')->name('comment-add');
+    Route::post('/comment/add', 'CommentController@store')->name('comment-add');
 });
 
 // Authentication Routes

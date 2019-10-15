@@ -323,9 +323,11 @@
             </div> <!-- end row -->
         </div> <!-- end container -->
         <br>
-        <button class="submit-btn" data-toggle="modal" data-target="#form">
-            Оставить пожелание
-        </button>
+        @if(Session::has('save-comment') == false)
+            <button class="modal-submit-btn" data-toggle="modal" data-target="#form">
+                Оставить пожелание
+            </button>
+        @endif
     </section>
 
     <!-- end gift-registration-section -->

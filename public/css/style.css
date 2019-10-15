@@ -4149,7 +4149,7 @@ q {font-style: italic;}
 /* Add a blue color to the author */
 .author {color: cornflowerblue;}
 
-.submit-btn {
+.modal-submit-btn {
   background-color: #5e9a8e;
   height: 45px;
   line-height: 45px;

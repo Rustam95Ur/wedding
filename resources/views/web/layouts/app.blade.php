@@ -139,7 +139,6 @@
             <form action="{{route('comment-add')}}" method="post">
                 @csrf
                 <div class="modal-body">
-                    <form>
                         <div class="form-group">
                             <input type="text" class="form-control"  name="name"
                                    placeholder="Ваше имя">
@@ -148,11 +147,9 @@
                         <textarea class="form-control"  name="text" rows="3"
                                   placeholder="Ваше пожелание"></textarea>
                         </div>
-                    </form>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">закрыть</button>
-                    <input type="button" class="submit-btn">Отправить</input>
+                    <input type="submit" class="modal-submit-btn" value="Отправить">
                 </div>
             </form>
         </div>
