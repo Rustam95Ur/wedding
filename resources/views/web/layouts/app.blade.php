@@ -108,11 +108,14 @@
     <script>
         $(function () {
             $('#messageModal').modal('show');
-            setTimeout(function(){$('#messageModal').modal('hide')},4000);
+            setTimeout(function () {
+                $('#messageModal').modal('hide')
+            }, 4000);
         });
     </script>
 @endif
-<div class="modal fade" id="messageModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="modal fade" id="messageModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+     aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-body">
@@ -124,6 +127,36 @@
         </div>
     </div>
 </div>
-
+<div class="modal fade" id="form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Ваше пожелание</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form action="{{route('comment-add')}}" method="post">
+                @csrf
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" class="form-control"  name="name"
+                                   placeholder="Ваше имя">
+                        </div>
+                        <div class="form-group">
+                        <textarea class="form-control"  name="text" rows="3"
+                                  placeholder="Ваше пожелание"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">закрыть</button>
+                    <input type="button" class="submit-btn">Отправить</input>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
 <!----></body>
 </html>
