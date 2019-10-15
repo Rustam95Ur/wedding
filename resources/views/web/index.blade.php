@@ -1,76 +1,32 @@
 @extends('web.layouts.app')
 @section('content')
     <!-- start wedding-couple-section -->
-    <section class="wedding-couple-section section-padding" id="couple">
+
+    <section class="story-section section-padding" id="story">
         <div class="container">
             <div class="row">
                 <div class="col col-xs-12">
-                    <div class="gb groom">
-                        <div class="img-holder wow fadeInLeftSlow"
-                             style="background-image: url(img/img-1.jpg);">
-                            <img src="{{asset('img/img-1.jpg')}}" alt="">
-                        </div>
-                        <div class="details" style="height: 456px;">
-                            <div class="details-inner">
-                                <h3>The groom</h3>
-                                <p>Hi I am suntina , dummy text of the printing and typesetting industry. Lorem Ipsum
-                                    has been the industry's standard dummy text ever since the 1500s, when an unknown
-                                    printer took a galley of type and scrambled it to make a type specimen book. It has
-                                    survived not only five centuries.</p>
-                                <span class="signature">Suntina</span>
-                                <ul class="social-links">
-                                    <li>
-                                        <a href="#"><i
-                                                    class="fa fa-facebook"></i></a></li>
-                                    <li>
-                                        <a href="#"><i
-                                                    class="fa fa-twitter"></i></a></li>
-                                    <li>
-                                        <a href="#"><i
-                                                    class="fa fa-pinterest"></i></a></li>
-                                    <li>
-                                        <a href="#"><i
-                                                    class="fa fa-google-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
+                    <div class="section-title">
+                        <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
+                        <h2>love store video</h2>
                     </div>
-                    <div class="gb bride">
-                        <div class="details" style="height: 456px;">
-                            <div class="details-inner">
-                                <h3>The Bride</h3>
-                                <p>Hi I am suntina , dummy text of the printing and typesetting industry. Lorem Ipsum
-                                    has been the industry's standard dummy text ever since the 1500s, when an unknown
-                                    printer took a galley of type and scrambled it to make a type specimen book. It has
-                                    survived not only five centuries.</p>
-                                <span class="signature">Famico</span>
-                                <ul class="social-links">
-                                    <li>
-                                        <a href="#"><i
-                                                    class="fa fa-facebook"></i></a></li>
-                                    <li>
-                                        <a href="#"><i
-                                                    class="fa fa-twitter"></i></a></li>
-                                    <li>
-                                        <a href="#"><i
-                                                    class="fa fa-pinterest"></i></a></li>
-                                    <li>
-                                        <a href="#"><i
-                                                    class="fa fa-google-plus"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="img-holder wow fadeInRightSlow"
-                             style="background-image: url(img/img-2.jpg);">
-                            <img src="img/img-2.jpg" alt="">
-                        </div>
+                </div>
+            </div> <!-- end section-title -->
+
+            <div class="row content">
+                <div class="col col-lg-8 col-lg-offset-2">
+                    <div class="img-holder video-holder">
+                        <img src="img/img-8.jpg" alt=""
+                             class="img img-responsive">
+                        <a href="https://www.youtube.com/embed/5pzXdJJ4Djk?autoplay=1" data-type="iframe"
+                           class="video-play-btn">
+                            <i class="fa fa-play"></i>
+                        </a>
                     </div>
                 </div>
             </div> <!-- end row -->
         </div> <!-- end container -->
     </section>
-    <!-- end wedding-couple-section -->
-
 
     <!-- start count-down-section -->
     <section class="count-down-section section-padding parallax" data-bg-image="img/img-9.jpg" data-speed="7"
@@ -105,48 +61,6 @@
 
 
     <!-- start story-section -->
-    <section class="story-section section-padding" id="story">
-        <div class="container">
-            <div class="row">
-                <div class="col col-xs-12">
-                    <div class="section-title">
-                        <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
-                        <h2>love store video</h2>
-                    </div>
-                </div>
-            </div> <!-- end section-title -->
-
-            <div class="row content">
-                <div class="col col-lg-8 col-lg-offset-2">
-                    <div class="img-holder video-holder">
-                        <img src="img/img-8.jpg" alt=""
-                             class="img img-responsive">
-                        <a href="https://www.youtube.com/embed/5pzXdJJ4Djk?autoplay=1" data-type="iframe"
-                           class="video-play-btn">
-                            <i class="fa fa-play"></i>
-                        </a>
-                    </div>
-                </div>
-            </div> <!-- end row -->
-        </div> <!-- end container -->
-    </section>
-    <!-- end story-section -->
-
-    <!-- start cta -->
-    <section class="cta section-padding parallax" data-bg-image="img/img-2.jpg" data-speed="7"
-             style="background-image: url(img/img-1.jpg); background-position: 50% -477.616px; background-size: cover;">
-        <div class="container">
-            <div class="row">
-                <div class="col col-xs-12">
-                    <h2><span>We are going to...</span> Celebrate Our Love</h2>
-                </div>
-            </div> <!-- end row -->
-        </div> <!-- end container -->
-    </section>
-    <!-- end cta -->
-
-
-    <!-- start events-section -->
     <section class="events-section section-padding" id="events">
         <div class="container">
             <div class="row">
@@ -184,6 +98,24 @@
             </div> <!-- end row -->
         </div> <!-- end container -->
     </section>
+    <!-- end story-section -->
+
+    <!-- start cta -->
+    <section class="cta section-padding parallax" data-bg-image="img/img-2.jpg" data-speed="7"
+             style="background-image: url(img/img-1.jpg); background-position: 50% -477.616px; background-size: cover;">
+        <div class="container">
+            <div class="row">
+                <div class="col col-xs-12">
+                    <h2><span>We are going to...</span> Celebrate Our Love</h2>
+                </div>
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section>
+    <!-- end cta -->
+
+
+    <!-- start events-section -->
+
     {{--<!-- end events-section -->--}}
 
 
@@ -678,36 +610,29 @@
 
             <div class="row content">
                 <div class="col col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <p>Please reserve before December 16th, 2017.</p>
+                    <p>Пожалуйста, забронируйте до 16 ноября начало в 17:00.</p>
                     <form id="rsvp-form" class="form validate-rsvp-form row" method="post" novalidate="novalidate">
-                        <div class="col col-sm-6">
-                            <input type="text" name="name" class="form-control" placeholder="Your Name*">
-                        </div>
-                        <div class="col col-sm-6">
-                            <input type="email" name="email" class="form-control" placeholder="Your Email*">
+                        <div class="col col-sm-12">
+                            <input type="text" name="name" class="form-control" placeholder="ФИО">
                         </div>
                         <div class="col col-sm-6">
                             <select class="form-control" name="guest">
-                                <option disabled="" selected="">Number Of Guest*</option>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
+                                <option disabled="" selected="">Вы придёте?</option>
+                                <option>Да</option>
+                                <option>Нет</option>
                             </select>
                         </div>
                         <div class="col col-sm-6">
                             <select class="form-control" name="events">
-                                <option disabled="" selected="">I Am Attending*</option>
-                                <option>Al events</option>
-                                <option>Wedding ceremony</option>
-                                <option>Reception party</option>
+                                <option disabled="" selected="">Сколько вас будет?</option>
+                                <option>1</option>
+                                <option>2-3</option>
+                                <option>3</option>
+                                <option>4-5</option>
                             </select>
                         </div>
-                        <div class="col col-sm-12">
-                            <textarea class="form-control" name="notes" placeholder="Your Message*"></textarea>
-                        </div>
                         <div class="col col-sm-12 submit-btn">
-                            <button type="submit" class="submit">Send Invitation</button>
+                            <button type="submit" class="submit">Отправь</button>
                             <span id="loader"><i class="fa fa-refresh fa-spin fa-3x fa-fw"></i></span>
                         </div>
                         <div class="col col-md-12 success-error-message">
