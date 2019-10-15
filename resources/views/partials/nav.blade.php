@@ -16,10 +16,13 @@
                             {!! trans('titles.adminDropdownNav') !!}
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item {{ (Request::is('roles') || Request::is('permissions')) ? 'active' : null }}" href="{{ route('laravelroles::roles.index') }}">
-                                {!! trans('titles.laravelroles') !!}
+                            <a class="dropdown-item" href="{{ route('images') }}">
+                               Галлерея
                             </a>
                             <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="{{ route('reserve') }}">
+                                Приглащение
+                            </a>
 {{--                            <a class="dropdown-item {{ Request::is('users', 'users/' . Auth::user()->id, 'users/' . Auth::user()->id . '/edit') ? 'active' : null }}" href="{{ url('/users') }}">--}}
 {{--                                {!! trans('titles.adminUserList') !!}--}}
 {{--                            </a>--}}
