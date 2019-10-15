@@ -4064,3 +4064,6 @@ a:focus {
 }
 
 /*# sourceMappingURL=style.css.map */
+.modal-dialog {
+  top:40%
+}

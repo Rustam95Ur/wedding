@@ -16,6 +16,7 @@
 // Homepage Route
 Route::group(['middleware' => ['web', 'checkblocked']], function () {
     Route::get('/', 'WebController@index')->name('home');
+    Route::post('/reserve/add', 'ReserveController@store')->name('reserve-add');
 });
 
 // Authentication Routes
@@ -51,7 +52,7 @@ Route::group(['middleware' => ['auth', 'activated', 'activity', 'checkblocked']]
 Route::group(['middleware' => ['auth', 'activated', 'activity', 'twostep', 'checkblocked']], function () {
 
     //  Homepage Route - Redirect based on user role is in controller.
-    Route::get('/home', ['as' => 'public.home',   'uses' => 'UserController@index']);
+    Route::get('/home', 'ReserveController@index')->name('reserve');
 
     // Show users profile - viewable by other users.
     Route::get('profile/{username}', [

@@ -104,6 +104,26 @@
 <!-- Custom script for this template -->
 <script src="{{asset('js/script.js')}}"></script>
 
+@if ($message = Session::get('success') or $message = Session::get('error') or $message = Session::get('warning') or $message = Session::get('info') or $errors->any())
+    <script>
+        $(function () {
+            $('#messageModal').modal('show');
+            setTimeout(function(){$('#messageModal').modal('hide')},4000);
+        });
+    </script>
+@endif
+<div class="modal fade" id="messageModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <h3 class="text-center text-success">{!! $message !!}</h3>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!----></body>
 </html>
