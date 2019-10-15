@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Page Title -->
-    <title> Lovly Wedding - Responsive Wedding Template </title>
+    <title>Оркен & Асель</title>
     <!-- Icon fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <link href="{{asset('fonts/fontawesome/css/font-awesome.min.css')}}" rel="stylesheet">
