@@ -8,6 +8,7 @@
     <!-- Page Title -->
     <title> Lovly Wedding - Responsive Wedding Template </title>
     <!-- Icon fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <link href="{{asset('fonts/fontawesome/css/font-awesome.min.css')}}" rel="stylesheet">
 
     <!-- Bootstrap core CSS -->
@@ -59,41 +60,26 @@
 
         <div class="wedding-announcement">
             <div class="couple-name-merried-text">
-                <h2 class="wow slideInUp" data-wow-duration="1s"
-                    style="visibility: visible; animation-duration: 1s; animation-name: slideInUp;">Suntina &
-                    Famico</h2>
-                <div class="married-text wow fadeIn" data-wow-delay="1s"
-                     style="visibility: visible; animation-delay: 1s; animation-name: fadeIn;">
+                <h2 class="wow slideInUp" data-wow-duration="1s">Оркен & Асель</h2>
+                <div class="married-text wow fadeIn" data-wow-delay="1s">
                     <h4 class="">
-                        <span class="wow fadeInUp" data-wow-delay="1.05s">W</span>
-                        <span class="wow fadeInUp" data-wow-delay="1.10s">e</span>
-                        <span class="wow fadeInUp" data-wow-delay="1.15s">'</span>
-                        <span class="wow fadeInUp" data-wow-delay="1.20s">r</span>
-                        <span class="wow fadeInUp" data-wow-delay="1.25s">e</span>
+                        <span class="wow fadeInUp" data-wow-delay="1.05s">М</span>
+                        <span class="wow fadeInUp" data-wow-delay="1.10s">Ы</span>
                         <span> </span>
-                        <span class="wow fadeInUp" data-wow-delay="1.30s">g</span>
-                        <span class="wow fadeInUp" data-wow-delay="1.35s">e</span>
-                        <span class="wow fadeInUp" data-wow-delay="1.40s">t</span>
-                        <span class="wow fadeInUp" data-wow-delay="1.45s">t</span>
-                        <span class="wow fadeInUp" data-wow-delay="1.50s">i</span>
-                        <span class="wow fadeInUp" data-wow-delay="1.55s">n</span>
-                        <span class="wow fadeInUp" data-wow-delay="1.60s">g</span>
-                        <span> </span>
-                        <span class="wow fadeInUp" data-wow-delay="1.65s">m</span>
-                        <span class="wow fadeInUp" data-wow-delay="1.70s">a</span>
-                        <span class="wow fadeInUp" data-wow-delay="1.75s">r</span>
-                        <span class="wow fadeInUp" data-wow-delay="1.80s">r</span>
-                        <span class="wow fadeInUp" data-wow-delay="1.85s">i</span>
-                        <span class="wow fadeInUp" data-wow-delay="1.90s">e</span>
-                        <span class="wow fadeInUp" data-wow-delay="1.95s">d</span>
-
+                        <span class="wow fadeInUp" data-wow-delay="1.15s">Ж</span>
+                        <span class="wow fadeInUp" data-wow-delay="1.20s">Е</span>
+                        <span class="wow fadeInUp" data-wow-delay="1.25s">Н</span>
+                        <span class="wow fadeInUp" data-wow-delay="1.30s">И</span>
+                        <span class="wow fadeInUp" data-wow-delay="1.35s">М</span>
+                        <span class="wow fadeInUp" data-wow-delay="1.40s">С</span>
+                        <span class="wow fadeInUp" data-wow-delay="1.45s">Я</span>
                     </h4>
                 </div>
                 <!-- <i class="fa fa-heart"></i> -->
             </div>
             <div class="save-the-date popup-save-the-date">
-                <h4>Save the date</h4>
-                <span class="date">25 DEC 2017</span>
+                <h4>Дата</h4>
+                <span class="date">16 ноября начало в 17:00</span>
             </div>
         </div>
     </section>

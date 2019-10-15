@@ -111,167 +111,26 @@
                 <div class="col col-xs-12">
                     <div class="section-title">
                         <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
-                        <h2>Our love story</h2>
+                        <h2>love store video</h2>
                     </div>
                 </div>
             </div> <!-- end section-title -->
 
-            <div class="row">
-                <div class="col col-xs-12">
-                    <div class="story-timeline">
-                        <div class="row">
-                            <div class="col col-md-6">
-                                <div class="story-text right-align-text">
-                                    <h3>First meet</h3>
-                                    <span class="date">Jan 12 2017</span>
-                                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet
-                                        mornings of spring which I enjoy with my whole heart. I am alone, and feel the
-                                        charm of existence in this spot, which was created for the bliss of souls like
-                                        mine. I am so happy, my dear friend, </p>
-                                </div>
-                            </div>
-                            <div class="col col-md-6">
-                                <div class="img-holder">
-                                    <img src="img/img-1(1).jpg" alt=""
-                                         class="img img-responsive">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col col-md-6">
-                                <div class="img-holder right-align-text story-slider owl-carousel owl-theme owl-loaded">
-
-
-                                    <div class="owl-stage-outer">
-                                        <div class="owl-stage"
-                                             style="transform: translate3d(-1320px, 0px, 0px); transition: all 1s ease 0s; width: 2640px;">
-                                            <div class="owl-item cloned" style="width: 440px; margin-right: 0px;"><img
-                                                        src="img/img-2(1).jpg"
-                                                        alt="" class="img img-responsive"></div>
-                                            <div class="owl-item cloned" style="width: 440px; margin-right: 0px;"><img
-                                                        src="img/img-3.jpg"
-                                                        alt="" class="img img-responsive"></div>
-                                            <div class="owl-item" style="width: 440px; margin-right: 0px;"><img
-                                                        src="img/img-2(1).jpg"
-                                                        alt="" class="img img-responsive"></div>
-                                            <div class="owl-item active" style="width: 440px; margin-right: 0px;"><img
-                                                        src="img/img-3.jpg"
-                                                        alt="" class="img img-responsive"></div>
-                                            <div class="owl-item cloned" style="width: 440px; margin-right: 0px;"><img
-                                                        src="img/img-2(1).jpg"
-                                                        alt="" class="img img-responsive"></div>
-                                            <div class="owl-item cloned" style="width: 440px; margin-right: 0px;"><img
-                                                        src="img/img-3.jpg"
-                                                        alt="" class="img img-responsive"></div>
-                                        </div>
-                                    </div>
-                                    <div class="owl-controls">
-                                        <div class="owl-nav">
-                                            <div class="owl-prev" style="display: none;">prev</div>
-                                            <div class="owl-next" style="display: none;">next</div>
-                                        </div>
-                                        <div class="owl-dots" style="display: none;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col col-md-6 text-holder">
-                                    <span class="heart">
-                                        <i class="fa fa-heart"></i>
-                                    </span>
-                                <div class="story-text">
-                                    <h3>First date</h3>
-                                    <span class="date">Feb 14 2017</span>
-                                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet
-                                        mornings of spring which I enjoy with my whole heart. I am alone, and feel the
-                                        charm of existence in this spot, which was created for the bliss of souls like
-                                        mine. I am so happy, my dear friend, </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col col-md-6 text-holder right-heart">
-                                    <span class="heart">
-                                        <i class="fa fa-heart"></i>
-                                    </span>
-                                <div class="story-text right-align-text">
-                                    <h3>Proposal</h3>
-                                    <span class="date">Apr 14 2017</span>
-                                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet
-                                        mornings of spring which I enjoy with my whole heart. I am alone, and feel the
-                                        charm of existence in this spot, which was created for the bliss of souls like
-                                        mine. I am so happy, my dear friend, </p>
-                                </div>
-                            </div>
-                            <div class="col col-md-6">
-                                <div class="img-holder right-align-text story-slider owl-carousel owl-theme owl-loaded">
-
-
-                                    <div class="owl-stage-outer">
-                                        <div class="owl-stage"
-                                             style="transform: translate3d(-1760px, 0px, 0px); transition: all 1s ease 0s; width: 2640px;">
-                                            <div class="owl-item cloned" style="width: 440px; margin-right: 0px;"><img
-                                                        src="img/img-7.jpg"
-                                                        alt="" class="img img-responsive"></div>
-                                            <div class="owl-item cloned" style="width: 440px; margin-right: 0px;"><img
-                                                        src="img/img-5.jpg"
-                                                        alt="" class="img img-responsive"></div>
-                                            <div class="owl-item" style="width: 440px; margin-right: 0px;"><img
-                                                        src="img/img-7.jpg"
-                                                        alt="" class="img img-responsive"></div>
-                                            <div class="owl-item" style="width: 440px; margin-right: 0px;"><img
-                                                        src="img/img-5.jpg"
-                                                        alt="" class="img img-responsive"></div>
-                                            <div class="owl-item cloned active"
-                                                 style="width: 440px; margin-right: 0px;"><img
-                                                        src="img/img-7.jpg"
-                                                        alt="" class="img img-responsive"></div>
-                                            <div class="owl-item cloned" style="width: 440px; margin-right: 0px;"><img
-                                                        src="img/img-5.jpg"
-                                                        alt="" class="img img-responsive"></div>
-                                        </div>
-                                    </div>
-                                    <div class="owl-controls">
-                                        <div class="owl-nav">
-                                            <div class="owl-prev" style="display: none;">prev</div>
-                                            <div class="owl-next" style="display: none;">next</div>
-                                        </div>
-                                        <div class="owl-dots" style="display: none;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col col-md-6">
-                                <div class="img-holder video-holder">
-                                    <img src="img/img-8.jpg" alt=""
-                                         class="img img-responsive">
-                                    <a href="https://www.youtube.com/embed/XSGBVzeBUbk?autoplay=1" data-type="iframe"
-                                       class="video-play-btn">
-                                        <i class="fa fa-play"></i>
-                                    </a>
-                                </div>
-                            </div>
-                            <div class="col col-md-6 text-holder">
-                                    <span class="heart">
-                                        <i class="fa fa-heart"></i>
-                                    </span>
-                                <div class="story-text">
-                                    <h3>Enagagement</h3>
-                                    <span class="date">Jul 14 2017</span>
-                                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet
-                                        mornings of spring which I enjoy with my whole heart. I am alone, and feel the
-                                        charm of existence in this spot, which was created for the bliss of souls like
-                                        mine. I am so happy, my dear friend, </p>
-                                </div>
-                            </div>
-                        </div>
+            <div class="row content">
+                <div class="col col-lg-8 col-lg-offset-2">
+                    <div class="img-holder video-holder">
+                        <img src="img/img-8.jpg" alt=""
+                             class="img img-responsive">
+                        <a href="https://www.youtube.com/embed/5pzXdJJ4Djk?autoplay=1" data-type="iframe"
+                           class="video-play-btn">
+                            <i class="fa fa-play"></i>
+                        </a>
                     </div>
                 </div>
             </div> <!-- end row -->
         </div> <!-- end container -->
     </section>
     <!-- end story-section -->
-
 
     <!-- start cta -->
     <section class="cta section-padding parallax" data-bg-image="img/img-2.jpg" data-speed="7"
@@ -288,63 +147,63 @@
 
 
     <!-- start events-section -->
-    <section class="events-section section-padding" id="events">
-        <div class="container">
-            <div class="row">
-                <div class="col col-xs-12">
-                    <div class="section-title">
-                        <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
-                        <h2>Wedding events</h2>
-                    </div>
-                </div>
-            </div> <!-- end section-title -->
+    {{--<section class="events-section section-padding" id="events">--}}
+        {{--<div class="container">--}}
+            {{--<div class="row">--}}
+                {{--<div class="col col-xs-12">--}}
+                    {{--<div class="section-title">--}}
+                        {{--<div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>--}}
+                        {{--<h2>Wedding events</h2>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div> <!-- end section-title -->--}}
 
-            <div class="row">
-                <div class="col col-lg-10 col-lg-offset-1">
-                    <div class="event">
-                        <div class="img-holder">
-                            <img src="img/img-1(2).jpg" alt=""
-                                 class="img img-responsive">
-                        </div>
-                        <div class="details">
-                            <h3>The reception</h3>
-                            <ul>
-                                <li><i class="fa fa-map-marker"></i> 32 big bro road, Chanpai, London.</li>
-                                <li><i class="fa fa-clock-o"></i> Nov 25 2017, 9AM - 5PM</li>
-                            </ul>
-                            <p>when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book. It has survived not only five centuries, but also the leap into electronic
-                                typesetting, remaining essentially unchanged. </p>
-                            <a class="see-location-btn popup-gmaps"
-                               href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881">
-                                See location <i class="fa fa-angle-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="event">
-                        <div class="img-holder">
-                            <img src="img/img-2(2).jpg" alt=""
-                                 class="img img-responsive">
-                        </div>
-                        <div class="details">
-                            <h3>Wedding party</h3>
-                            <ul>
-                                <li><i class="fa fa-map-marker"></i> 32 big bro road, Chanpai, London.</li>
-                                <li><i class="fa fa-clock-o"></i> Nov 25 2017, 9AM - 5PM</li>
-                            </ul>
-                            <p>when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book. It has survived not only five centuries, but also the leap into electronic
-                                typesetting, remaining essentially unchanged. </p>
-                            <a class="see-location-btn popup-gmaps"
-                               href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.0160484383277!2d144.99053291585201!3d-37.81309307975254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642ef89a7e023%3A0xb1353055e38c1ab8!2sNew+York+Tomato+Cafe!5e0!3m2!1sbn!2sbd!4v1503743893919">
-                                See location <i class="fa fa-angle-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div> <!-- end row -->
-        </div> <!-- end container -->
-    </section>
+            {{--<div class="row">--}}
+                {{--<div class="col col-lg-10 col-lg-offset-1">--}}
+                    {{--<div class="event">--}}
+                        {{--<div class="img-holder">--}}
+                            {{--<img src="img/img-1(2).jpg" alt=""--}}
+                                 {{--class="img img-responsive">--}}
+                        {{--</div>--}}
+                        {{--<div class="details">--}}
+                            {{--<h3>The reception</h3>--}}
+                            {{--<ul>--}}
+                                {{--<li><i class="fa fa-map-marker"></i> 32 big bro road, Chanpai, London.</li>--}}
+                                {{--<li><i class="fa fa-clock-o"></i> Nov 25 2017, 9AM - 5PM</li>--}}
+                            {{--</ul>--}}
+                            {{--<p>when an unknown printer took a galley of type and scrambled it to make a type specimen--}}
+                                {{--book. It has survived not only five centuries, but also the leap into electronic--}}
+                                {{--typesetting, remaining essentially unchanged. </p>--}}
+                            {{--<a class="see-location-btn popup-gmaps"--}}
+                               {{--href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881">--}}
+                                {{--See location <i class="fa fa-angle-right"></i>--}}
+                            {{--</a>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                    {{--<div class="event">--}}
+                        {{--<div class="img-holder">--}}
+                            {{--<img src="img/img-2(2).jpg" alt=""--}}
+                                 {{--class="img img-responsive">--}}
+                        {{--</div>--}}
+                        {{--<div class="details">--}}
+                            {{--<h3>Wedding party</h3>--}}
+                            {{--<ul>--}}
+                                {{--<li><i class="fa fa-map-marker"></i> 32 big bro road, Chanpai, London.</li>--}}
+                                {{--<li><i class="fa fa-clock-o"></i> Nov 25 2017, 9AM - 5PM</li>--}}
+                            {{--</ul>--}}
+                            {{--<p>when an unknown printer took a galley of type and scrambled it to make a type specimen--}}
+                                {{--book. It has survived not only five centuries, but also the leap into electronic--}}
+                                {{--typesetting, remaining essentially unchanged. </p>--}}
+                            {{--<a class="see-location-btn popup-gmaps"--}}
+                               {{--href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.0160484383277!2d144.99053291585201!3d-37.81309307975254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642ef89a7e023%3A0xb1353055e38c1ab8!2sNew+York+Tomato+Cafe!5e0!3m2!1sbn!2sbd!4v1503743893919">--}}
+                                {{--See location <i class="fa fa-angle-right"></i>--}}
+                            {{--</a>--}}
+                        {{--</div>--}}
+                    {{--</div>--}}
+                {{--</div>--}}
+            {{--</div> <!-- end row -->--}}
+        {{--</div> <!-- end container -->--}}
+    {{--</section>--}}
     <!-- end events-section -->
 
 
@@ -825,8 +684,8 @@
 
 
     <!-- start rsvp-section -->
-    <section class="rsvp-section section-padding parallax" data-bg-image="img/img-4.jpg" data-speed="7" id="rsvp"
-             style="background-image: url(img/img-1.jpg); background-position: 50% -1093.54px; background-size: cover;">
+    <section class="rsvp-section section-padding"
+             style="background-image: url(img/img-1.jpg);  background-size: cover; background-repeat: no-repeat">
         <div class="container">
             <div class="row">
                 <div class="col col-xs-12">

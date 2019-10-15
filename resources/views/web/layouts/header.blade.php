@@ -10,7 +10,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <div class="couple-logo">
-                    <h1><a href="#home">S <i class="fa  fa-heart"></i> F</a></h1>
+                    <h1><a href="#home">О<i class="fa  fa-heart"></i> А</a></h1>
                 </div>
             </div>
             <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
@@ -36,7 +36,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <div class="couple-logo">
-                    <h1><a href="#home">S <i class="fa  fa-heart"></i> F</a></h1>
+                    <h1><a href="#home">О <i class="fa  fa-heart"></i> А</a></h1>
                 </div>
             </div>
             <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
