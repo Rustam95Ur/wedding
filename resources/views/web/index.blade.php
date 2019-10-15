@@ -77,7 +77,8 @@
                 <div class="col col-lg-10 col-lg-offset-1">
                     <div class="event">
                         <div class="img-holder">
-                            <img src="https://s7d2.scene7.com/is/image/ritzcarlton/RC_Astana_125455?$XlargeViewport100pct$" alt=""
+                            <img src="https://s7d2.scene7.com/is/image/ritzcarlton/RC_Astana_125455?$XlargeViewport100pct$"
+                                 alt=""
                                  class="img img-responsive">
                         </div>
                         <div class="details">
@@ -225,45 +226,54 @@
                         <h2>Сізді шын жүректен күтеміз</h2>
                     </div>
                 </div>
-            </div> <!-- end section-title -->
 
-            <div class="row content">
-                <div class="col col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <p>Пожалуйста, ответьте на вопросы.</p>
-                    <form action="{{route('reserve-add')}}" class="form validate-rsvp-form row" method="post">
-                        @csrf
-                        <div class="col col-sm-12">
-                            <input type="text" name="full_name" class="form-control" placeholder="ФИО" required>
-                        </div>
-                        <div class="col col-sm-6">
-                            <select class="form-control" name="agreement" required>
-                                <option disabled="" selected="">Вы придёте?</option>
-                                <option value="1">Да</option>
-                                <option value="0">Нет</option>
-                            </select>
-                        </div>
-                        <div class="col col-sm-6">
-                            <select class="form-control" name="count_people">
-                                <option disabled="" selected="">Сколько вас будет?</option>
-                                <option value="1">1</option>
-                                <option value="2-3">2-3</option>
-                                <option value="3">3</option>
-                                <option value="4-5">4-5</option>
-                            </select>
-                        </div>
-                        <div class="col col-sm-12 submit-btn">
-                            <input type="submit" class="submit" value="Отправить">
-                        </div>
-                    </form>
+            </div> <!-- end section-title -->
+            @if(Session::has('save-reserve') == false)
+                <div class="row content">
+                    <div class="col col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <p>Пожалуйста, ответьте на вопросы.</p>
+                        <form action="{{route('reserve-add')}}" class="form validate-rsvp-form row" method="post">
+                            @csrf
+                            <div class="col col-sm-12">
+                                <input type="text" name="full_name" class="form-control" placeholder="ФИО" required>
+                            </div>
+                            <div class="col col-sm-6">
+                                <select class="form-control" name="agreement" required>
+                                    <option disabled="" selected="">Вы придёте?</option>
+                                    <option value="1">Да</option>
+                                    <option value="0">Нет</option>
+                                </select>
+                            </div>
+                            <div class="col col-sm-6">
+                                <select class="form-control" name="count_people">
+                                    <option disabled="" selected="">Сколько вас будет?</option>
+                                    <option value="1">1</option>
+                                    <option value="2-3">2-3</option>
+                                    <option value="3">3</option>
+                                    <option value="4-5">4-5</option>
+                                </select>
+                            </div>
+                            <div class="col col-sm-12 submit-btn">
+                                <input type="submit" class="submit" value="Отправить">
+                            </div>
+                        </form>
+                    </div>
+                </div> <!-- end row -->
+                @else
+                <div class="col col-xs-12">
+                    <div class="section-title-white">
+                        <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
+                        <h2>Рахмет</h2>
+                    </div>
                 </div>
-            </div> <!-- end row -->
+            @endif
         </div> <!-- end container -->
     </section>
     <!-- end rsvp-section -->
 
 
     <!-- start getting-there-section -->
- 
+
     <!-- end getting-there-section -->
 
 

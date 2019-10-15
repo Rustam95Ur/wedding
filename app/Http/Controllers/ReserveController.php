@@ -6,6 +6,7 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\StoreReserve;
 use App\Models\Reserve;
+use Illuminate\Support\Facades\Session;
 
 class ReserveController extends Controller
 {
@@ -32,6 +33,7 @@ class ReserveController extends Controller
         $reserve->agreement = $request['agreement'];
         $reserve->count_people = $request['count_people'];
         $reserve->save();
+        Session::put('save-reserve','1');
         return redirect()->back()->with('success', 'Заявка отправлена');
     }
 
