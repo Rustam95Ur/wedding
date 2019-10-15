@@ -48,7 +48,7 @@
     <section class="hero">
         <div class="static-hero"></div>
         <div id="video-background" class="video-player mb_YTPlayer isMuted"
-             data-property="{videoURL:'https://youtu.be/5pzXdJJ4Djk',containment:'.video-player',autoPlay:true, mute:false, startAt:0, opacity:1}">
+             data-property="{videoURL:'https://youtu.be/pW-zMTnH2pU',containment:'.video-player',autoPlay:true, mute:false, startAt:0, opacity:1}">
             <div class="mbYTP_wrapper" id="wrapper_video-background">
                 <iframe id="iframe_video-background" class="playerBox"
                         frameborder="0" allowfullscreen="1"
