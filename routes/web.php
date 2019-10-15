@@ -53,6 +53,13 @@ Route::group(['middleware' => ['auth', 'activated', 'activity', 'twostep', 'chec
 
     //  Homepage Route - Redirect based on user role is in controller.
     Route::get('/home', 'ReserveController@index')->name('reserve');
+    Route::get('/home/images', 'ImageController@index')->name('images');
+    Route::get('/home/image/add', 'ImageController@create')->name('image-add');
+    Route::post('/home/image/save', 'ImageController@store')->name('image-save');
+    Route::get('/home/image/edit/{id}', 'ImageController@edit')->name('image-edit');
+    Route::get('/home/image/edit/{id}', 'ImageController@edit')->name('image-edit');
+    Route::put('/home/image/update/{id}', 'ImageController@update')->name('image-update');
+    Route::delete('/home/image/delete/{id}', 'ImageController@destroy')->name('image-delete');
 
     // Show users profile - viewable by other users.
     Route::get('profile/{username}', [
