@@ -1,6 +1,8 @@
 @extends('layouts.app')
 @section('content')
     <div class="container">
+        <a href="{{route('export')}}">Export Excel</a>
+        <br>
         <div class="row">
             <div class="col-sm-12">
                 <div class="card">
@@ -33,6 +35,7 @@
                 <div class="col-md-12 mt-3">
                     {{ $reserves->links() }}
                 </div>
+
             </div>
         </div>
     </div>

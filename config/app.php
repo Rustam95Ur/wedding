@@ -163,6 +163,7 @@ return [
         Illuminate\View\ViewServiceProvider::class,
         App\Providers\MacroServiceProvider::class,
         App\Providers\ComposerServiceProvider::class,
+        'Maatwebsite\Excel\ExcelServiceProvider',
         /*
          * Package Service Providers...
          */
@@ -232,6 +233,7 @@ return [
         'Gravatar'      => Creativeorange\Gravatar\Facades\Gravatar::class,
         'Image'         => Intervention\Image\Facades\Image::class,
         'Uuid'          => Webpatser\Uuid\Uuid::class,
+        'Excel'         => 'Maatwebsite\Excel\Facades\Excel',
     ],
 
 ];

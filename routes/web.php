@@ -61,6 +61,7 @@ Route::group(['middleware' => ['auth', 'activated', 'activity', 'twostep', 'chec
     Route::get('/home/image/edit/{id}', 'ImageController@edit')->name('image-edit');
     Route::put('/home/image/update/{id}', 'ImageController@update')->name('image-update');
     Route::delete('/home/image/delete/{id}', 'ImageController@destroy')->name('image-delete');
+    Route::get('/home/export/', 'ReserveController@export')->name('export');
 
     // Show users profile - viewable by other users.
     Route::get('profile/{username}', [
