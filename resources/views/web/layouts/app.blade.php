@@ -1,92 +1,122 @@
-<!doctype html>
-<html class="no-js" lang="en">
+<!DOCTYPE html>
+<html lang="en" class="">
 <head>
-    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Definity - Full Screen Video Onepage</title>
-    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="assets/styles/vendor/bootstrap.min.css">
-    <!-- Fonts -->
-    <link rel="stylesheet" href="assets/fonts/et-lineicons/css/style.css">
-    <link rel="stylesheet" href="assets/fonts/linea-font/css/linea-font.css">
-    <link rel="stylesheet" href="assets/fonts/fontawesome/css/font-awesome.min.css">
-    <!-- Slider -->
-    <link rel="stylesheet" href="assets/styles/vendor/slick.css">
-    <!-- Lightbox -->
-    <link rel="stylesheet" href="assets/styles/vendor/magnific-popup.css">
-    <!-- Animate.css -->
-    <link rel="stylesheet" href="assets/styles/vendor/animate.css">
-    <!-- BG Video -->
-    <link rel="stylesheet" href="assets/styles/vendor/jquery.mb.YTPlayer.min.css">
+    <!-- Page Title -->
+    <title> Lovly Wedding - Responsive Wedding Template </title>
+    <!-- Icon fonts -->
+    <link href="{{asset('fonts/fontawesome/css/font-awesome.min.css')}}" rel="stylesheet">
 
+    <!-- Bootstrap core CSS -->
+    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
 
-    <!-- Definity CSS -->
-    <link rel="stylesheet" href="assets/styles/main.css">
-    <link rel="stylesheet" href="assets/styles/responsive.css">
+    <!-- Plugins for this template -->
+    <link href="{{asset('css/animate.css')}}" rel="stylesheet">
+    <link href="{{asset('css/owl.carousel.css')}}" rel="stylesheet">
+    <link href="{{asset('css/owl.theme.css')}}" rel="stylesheet">
+    <link href="{{asset('css/slick.css')}}" rel="stylesheet">
+    <link href="{{asset('css/slick-theme.css')}}" rel="stylesheet">
+    <link href="{{asset('css/owl.transitions.css')}}" rel="stylesheet">
+    <link href="{{asset('css/jquery.fancybox.css')}}" rel="stylesheet">
+    <link href="{{asset('css/magnific-popup.css')}}" rel="stylesheet">
+    <link href="{{asset('css/style.css')}}" rel="stylesheet">
 
-    <!-- JS -->
-    <script src="assets/js/vendor/modernizr-2.8.3.min.js"></script>
-</head>
-<body id="page-top" data-spy="scroll" data-target=".navbar">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-<!--[if lt IE 8]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]-->
+<body id="home">
 
+<!-- start page-wrapper -->
+<div class="page-wrapper">
 
-<!-- ========== Preloader ========== -->
+    <!-- start preloader -->
+    <div class="preloader" style="display: none;">
+        <div class="inner">
+            <span class="icon"><i class="fi flaticon-two"></i></span>
+        </div>
+    </div>
+    <!-- end preloader -->
+    <!-- start of hero -->
+    <section class="hero">
+        <div class="static-hero"></div>
+        <div id="video-background" class="video-player mb_YTPlayer isMuted"
+             data-property="{videoURL:'https://youtu.be/5pzXdJJ4Djk',containment:'.video-player',autoPlay:true, mute:true, startAt:0, opacity:1}">
+            <div class="mbYTP_wrapper" id="wrapper_video-background">
+                <iframe id="iframe_video-background" class="playerBox"
+                        frameborder="0" allowfullscreen="1"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        title="YouTube video player" width="640" height="360"
+                        unselectable="on"></iframe>
+                <div class="YTPOverlay"></div>
+            </div>
+        </div>
 
-<div class="preloader">
-    <img src="assets/images/loader.svg" alt="Loading...">
+        <div class="wedding-announcement">
+            <div class="couple-name-merried-text">
+                <h2 class="wow slideInUp" data-wow-duration="1s"
+                    style="visibility: visible; animation-duration: 1s; animation-name: slideInUp;">Suntina &
+                    Famico</h2>
+                <div class="married-text wow fadeIn" data-wow-delay="1s"
+                     style="visibility: visible; animation-delay: 1s; animation-name: fadeIn;">
+                    <h4 class="">
+                        <span class="wow fadeInUp" data-wow-delay="1.05s">W</span>
+                        <span class="wow fadeInUp" data-wow-delay="1.10s">e</span>
+                        <span class="wow fadeInUp" data-wow-delay="1.15s">'</span>
+                        <span class="wow fadeInUp" data-wow-delay="1.20s">r</span>
+                        <span class="wow fadeInUp" data-wow-delay="1.25s">e</span>
+                        <span> </span>
+                        <span class="wow fadeInUp" data-wow-delay="1.30s">g</span>
+                        <span class="wow fadeInUp" data-wow-delay="1.35s">e</span>
+                        <span class="wow fadeInUp" data-wow-delay="1.40s">t</span>
+                        <span class="wow fadeInUp" data-wow-delay="1.45s">t</span>
+                        <span class="wow fadeInUp" data-wow-delay="1.50s">i</span>
+                        <span class="wow fadeInUp" data-wow-delay="1.55s">n</span>
+                        <span class="wow fadeInUp" data-wow-delay="1.60s">g</span>
+                        <span> </span>
+                        <span class="wow fadeInUp" data-wow-delay="1.65s">m</span>
+                        <span class="wow fadeInUp" data-wow-delay="1.70s">a</span>
+                        <span class="wow fadeInUp" data-wow-delay="1.75s">r</span>
+                        <span class="wow fadeInUp" data-wow-delay="1.80s">r</span>
+                        <span class="wow fadeInUp" data-wow-delay="1.85s">i</span>
+                        <span class="wow fadeInUp" data-wow-delay="1.90s">e</span>
+                        <span class="wow fadeInUp" data-wow-delay="1.95s">d</span>
+
+                    </h4>
+                </div>
+                <!-- <i class="fa fa-heart"></i> -->
+            </div>
+            <div class="save-the-date popup-save-the-date">
+                <h4>Save the date</h4>
+                <span class="date">25 DEC 2017</span>
+            </div>
+        </div>
+    </section>
+    <!-- end of hero slider -->
+    @extends('web.layouts.header')
+    @yield('content')
+    @extends('web.layouts.footer')
+
 </div>
+<!-- end of page-wrapper -->
 
 
+<!-- All JavaScript files
+================================================== -->
+<script src="{{asset('js/jquery.min.js')}}"></script>
+<script src="{{asset('js/bootstrap.min.js')}}"></script>
+<script src="{{asset('js/jquery-plugin-collection.js')}}"></script>
+<script src="{{asset('js/jquery.mb.YTPlayer.src.js')}}"></script>
+<!-- Plugins for this template -->
+
+<!-- Custom script for this template -->
+<script src="{{asset('js/script.js')}}"></script>
 
 
-
-
-@extends('web.layouts.header')
-@yield('content')
-@extends('web.layouts.footer')
-
-
-
-
-
-
-
-<!-- ========== Scripts ========== -->
-
-<script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
-<script src="assets/js/vendor/google-fonts.js"></script>
-<script src="assets/js/vendor/jquery.easing.js"></script>
-<script src="assets/js/vendor/jquery.waypoints.min.js"></script>
-<script src="assets/js/vendor/bootstrap.min.js"></script>
-<script src="assets/js/vendor/bootstrap-hover-dropdown.min.js"></script>
-<script src="assets/js/vendor/smoothscroll.js"></script>
-<script src="assets/js/vendor/jquery.localScroll.min.js"></script>
-<script src="assets/js/vendor/jquery.scrollTo.min.js"></script>
-<script src="assets/js/vendor/jquery.stellar.min.js"></script>
-<script src="assets/js/vendor/jquery.parallax.js"></script>
-<script src="assets/js/vendor/slick.min.js"></script>
-<script src="assets/js/vendor/jquery.easypiechart.min.js"></script>
-<script src="assets/js/vendor/countup.min.js"></script>
-<script src="assets/js/vendor/isotope.min.js"></script>
-<script src="assets/js/vendor/jquery.magnific-popup.min.js"></script>
-<script src="assets/js/vendor/wow.min.js"></script>
-<script src="assets/js/vendor/jquery.mb.YTPlayer.min.js"></script>
-<script src="assets/js/vendor/jquery.ajaxchimp.js"></script>
-
-<!-- Google Maps -->
-<script src="assets/js/gmap.js"></script>
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDOcd7o0W0r846FC_GoHSK56xeAvP8fV4s"></script>
-
-<!-- Definity JS -->
-<script src="assets/js/main.js"></script>
-</body>
+<!----></body>
 </html>

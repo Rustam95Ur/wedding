@@ -1,28 +1,58 @@
-<!-- ========== Navigation ========== -->
+<!-- Start header -->
+<header id="header" class="site-header header-style-2">
+    <nav class="navigation navbar navbar-default original">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="open-btn">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="couple-logo">
+                    <h1><a href="#home">S <i class="fa  fa-heart"></i> F</a></h1>
+                </div>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
+                <button class="close-navbar"><i class="fa fa-close"></i></button>
+                <ul class="nav navbar-nav">
+                    <li><a href="#home">Home</a></li>
+                    <li class=""><a href="#couple">Couple</a></li>
+                    <li class=""><a href="#story">Story</a></li>
+                    <li class=""><a href="#events">Events</a></li>
+                    <li class=""><a href="#people">People</a></li>
+                    <li class=""><a href="#gallery">Gallery</a></li>
+                    <li class=""><a href="#rsvp">RSVP</a></li>
+                </ul>
+            </div><!-- end of nav-collapse -->
+        </div><!-- end of container -->
+    </nav><nav class="navigation navbar navbar-default sticky-2 sticky-on">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="open-btn">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div class="couple-logo">
+                    <h1><a href="#home">S <i class="fa  fa-heart"></i> F</a></h1>
+                </div>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
+                <button class="close-navbar"><i class="fa fa-close"></i></button>
+                <ul class="nav navbar-nav">
+                    <li><a href="#home">Home</a></li>
+                    <li class="current-menu-item"><a href="#couple">Couple</a></li>
+                    <li class=""><a href="#story">Story</a></li>
+                    <li class=""><a href="#events">Events</a></li>
+                    <li class=""><a href="#people">People</a></li>
+                    <li class=""><a href="#gallery">Gallery</a></li>
+                    <li class=""><a href="#rsvp">RSVP</a></li>
+                </ul>
+            </div><!-- end of nav-collapse -->
+        </div><!-- end of container -->
+    </nav>
+</header>
+<!-- end of header -->
 
-<nav class="navbar navbar-default navbar-fixed-top mega navbar-trans navbar-fw">
-    <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </button>
-        <!-- Logo -->
-        <a class="navbar-brand" href="index.html"><img class="navbar-logo" src="assets/images/logo.png" alt="Definity - Logo"></a>
-    </div>
-
-    <!-- Navbar Links -->
-    <div id="navbar" class="navbar-collapse collapse page-scroll navbar-right">
-        <ul class="nav navbar-nav">
-            <li><a href="#home">Home<span class="sr-only"></span></a></li>
-            <li><a href="#services">Services<span class="sr-only"></span></a></li>
-            <li><a href="#about">About<span class="sr-only"></span></a></li>
-            <li><a href="#portfolio">Portfolio<span class="sr-only"></span></a></li>
-            <li><a href="#testimonials">Testimonials<span class="sr-only"></span></a></li>
-            <li><a href="#blog">Blog<span class="sr-only"></span></a></li>
-            <li><a href="#contact">Contact<span class="sr-only"></span></a></li>
-            <li><a href="index.html">All Demos<span class="sr-only"></span></a></li>
-        </ul><!-- / .nav .navbar-nav -->
-    </div><!--/.navbar-collapse -->
-</nav><!-- / .navbar -->

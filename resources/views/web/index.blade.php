@@ -1,780 +1,943 @@
 @extends('web.layouts.app')
 @section('content')
-    <!-- ========== Hero Cover ========== -->
-
-    <div id="home" class="fs-video-hero">
-
-        <!-- Video Background -->
-        <div id="fs-video-one-bg" class="player"
-             data-property="{videoURL:'http://youtu.be/Scxs7L0vhZ4',containment:'.fs-video-hero',autoPlay:true, mute:true, startAt:71, stopAt:300, opacity:1}">
-        </div>
-
-        <div class="bg-overlay">
-
-            <!-- Hero Content -->
-            <div class="hero-content-wrapper">
-                <div class="hero-content">
-
-                    <h1 class="hero-lead wow fadeInLeft" data-wow-duration="1.5s">Show<br> Your Story</h1>
-                    <h4 class="h-alt hero-subheading wow fadeIn" data-wow-duration="2s" data-wow-delay=".7s">Multipage
-                        &amp; Onepage HTML5 Templates</h4>
-                    <a href="#services" class="btn btn-light wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">Learn
-                        More</a>
-
-                </div>
-            </div>
-
-            <!-- Scroller -->
-            <a href="#services" class="scroller">
-                <span class="scroller-text">scroll down</span>
-                <span class="linea-basic-magic-mouse"></span>
-            </a>
-
-        </div><!-- / .bg-overlay -->
-    </div><!-- / .fs-video-hero -->
-
-
-
-    <!-- ========== Services - Frame Icons ========== -->
-
-    <section id="services" class="container section ft-centered">
-
-        <header class="sec-heading">
-            <h2>What we do</h2>
-            <span class="subheading">Lorem ipsum dolor sit amet, consectetur</span>
-        </header>
-
-        <div class="row">
-
-            <!-- Item 1 -->
-            <div class="col-md-3 col-sm-6 mb-sm-50 ft-item ft-dark-spin wow zoomIn" data-wow-duration=".6s"
-                 data-wow-delay=".3s">
-                <span class="et-tools"></span>
-                <h5>Web Design</h5>
-                <p>Lorem ipsum dolor sit amet, ete elit consectetur adipisicing. Omnis quae, ipsam impedit eius,
-                    vero.</p>
-            </div>
-
-            <!-- Item 2 -->
-            <div class="col-md-3 col-sm-6 mb-sm-50 ft-item ft-dark-spin wow zoomIn" data-wow-duration=".6s">
-                <span class="et-desktop"></span>
-                <h5>Development</h5>
-                <p>Lorem ipsum dolor sit amet, ete elit consectetur adipisicing. Omnis quae, ipsam impedit eius,
-                    vero.</p>
-            </div>
-
-            <!-- Item 3 -->
-            <div class="col-md-3 col-sm-6 mb-sm-50 ft-item ft-dark-spin wow zoomIn" data-wow-duration=".6s">
-                <span class="et-anchor"></span>
-                <h5>Branding</h5>
-                <p>Lorem ipsum dolor sit amet, ete elit consectetur adipisicing. Omnis quae, ipsam impedit eius,
-                    vero.</p>
-            </div>
-
-            <!-- Item 4 -->
-            <div class="col-md-3 col-sm-6 mb-sm-50 ft-item ft-dark-spin wow zoomIn" data-wow-duration=".6s"
-                 data-wow-delay=".3s">
-                <span class="et-strategy"></span>
-                <h5>Marketing</h5>
-                <p>Lorem ipsum dolor sit amet, ete elit consectetur adipisicing. Omnis quae, ipsam impedit eius,
-                    vero.</p>
-            </div>
-
-        </div><!-- / .row -->
-    </section><!-- / .ft-frames -->
-
-
-
-    <!-- ========== Number Counters - Parallax ========== -->
-
-    <div class="number-counters">
+    <!-- start wedding-couple-section -->
+    <section class="wedding-couple-section section-padding" id="couple">
         <div class="container">
-            <div id="counters" class="row count-wrapper">
-
-                <!-- Item 1 -->
-                <div class="col-md-3 mb-sm-100 count-item wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
-                    <span id="count-1" class="count-nbr">467</span>
-                    <span class="count-text">Projects completed</span>
-                </div>
-
-                <!-- Item 2 -->
-                <div class="col-md-3 mb-sm-100 count-item wow fadeIn" data-wow-duration="1s">
-                    <span id="count-2" class="count-nbr">2835</span>
-                    <span class="count-text">Emails Send</span>
-                </div>
-
-                <!-- Item 3 -->
-                <div class="col-md-3 mb-sm-100 count-item wow fadeIn" data-wow-duration="1s">
-                    <span id="count-3" class="count-nbr">46,930</span>
-                    <span class="count-text">Pixels created</span>
-                </div>
-
-                <!-- Item 4 -->
-                <div class="col-md-3 count-item wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
-                    <span id="count-4" class="count-nbr">102,890</span>
-                    <span class="count-text">Happy clients</span>
-                </div>
-
-            </div><!-- / .row -->
-        </div><!-- / .container -->
-    </div><!-- / .number-counters -->
-
-
-
-    <!-- ========== Features - Centerd Image ========== -->
-
-    <section class="container section ft-x">
-        <div class="row">
-
-            <header class="sec-heading">
-                <h2>Mobile Friendly</h2>
-                <span class="subheading">Created to work on all mobile devices</span>
-            </header>
-
-            <!-- Feature 1 -->
-            <div class="col-lg-4 wow fadeInLeft" data-wow-duration=".8s">
-
-                <!-- white space -->
-                <div class="ws-m"></div>
-
-                <!-- Material right aligned - Item 1 -->
-                <div class="col-md-12 no-gap ws-s ft-item ft-material right-align">
-                    <div class="ft-content">
-                        <h5>Easily Adjusti</h5>
-                        <p>Lorem ipsum dolor sit amet, ete elit consectetur adipisicing. Omnis quae, ipsam impedit
-                            eius.</p>
+            <div class="row">
+                <div class="col col-xs-12">
+                    <div class="gb groom">
+                        <div class="img-holder wow fadeInLeftSlow"
+                             style="background-image: url(img/img-1.jpg);">
+                            <img src="{{asset('img/img-1.jpg')}}" alt="">
+                        </div>
+                        <div class="details" style="height: 456px;">
+                            <div class="details-inner">
+                                <h3>The groom</h3>
+                                <p>Hi I am suntina , dummy text of the printing and typesetting industry. Lorem Ipsum
+                                    has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. It has
+                                    survived not only five centuries.</p>
+                                <span class="signature">Suntina</span>
+                                <ul class="social-links">
+                                    <li>
+                                        <a href="#"><i
+                                                    class="fa fa-facebook"></i></a></li>
+                                    <li>
+                                        <a href="#"><i
+                                                    class="fa fa-twitter"></i></a></li>
+                                    <li>
+                                        <a href="#"><i
+                                                    class="fa fa-pinterest"></i></a></li>
+                                    <li>
+                                        <a href="#"><i
+                                                    class="fa fa-google-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div class="ft-icon">
-                        <i class="fa fa-hand-peace-o"></i>
+                    <div class="gb bride">
+                        <div class="details" style="height: 456px;">
+                            <div class="details-inner">
+                                <h3>The Bride</h3>
+                                <p>Hi I am suntina , dummy text of the printing and typesetting industry. Lorem Ipsum
+                                    has been the industry's standard dummy text ever since the 1500s, when an unknown
+                                    printer took a galley of type and scrambled it to make a type specimen book. It has
+                                    survived not only five centuries.</p>
+                                <span class="signature">Famico</span>
+                                <ul class="social-links">
+                                    <li>
+                                        <a href="#"><i
+                                                    class="fa fa-facebook"></i></a></li>
+                                    <li>
+                                        <a href="#"><i
+                                                    class="fa fa-twitter"></i></a></li>
+                                    <li>
+                                        <a href="#"><i
+                                                    class="fa fa-pinterest"></i></a></li>
+                                    <li>
+                                        <a href="#"><i
+                                                    class="fa fa-google-plus"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="img-holder wow fadeInRightSlow"
+                             style="background-image: url(img/img-2.jpg);">
+                            <img src="img/img-2.jpg" alt="">
+                        </div>
                     </div>
-                </div><!-- / .ft-item -->
-
-                <!-- Material right aligned - Item 2 -->
-                <div class="col-md-12 no-gap ws-s ft-item ft-material right-align">
-                    <div class="ft-content">
-                        <h5>100% Responsive</h5>
-                        <p>Lorem ipsum dolor sit amet, ete elit consectetur adipisicing. Omnis quae, ipsam impedit
-                            eius.</p>
-                    </div>
-                    <div class="ft-icon">
-                        <i class="fa fa-tv"></i>
-                    </div>
-                </div><!-- / .ft-item -->
-
-            </div><!-- / .col-lg-4 -->
-
-            <!-- Center Image -->
-            <div class="col-lg-4">
-                <img src="http://placehold.it/360x600" alt="iPad cover" class="img-responsive center-block wow fadeInUp"
-                     data-wow-duration="1s" data-wow-delay=".1s">
-            </div>
-
-            <!-- Features Left -->
-            <div class="col-lg-4 wow fadeInRight" data-wow-duration=".8s">
-
-                <!-- white space -->
-                <div class="ws-m"></div>
-
-                <!-- Item 3 -->
-                <div class="col-md-12 no-gap ws-s ft-item ft-material">
-                    <i class="fa fa-cogs"></i>
-                    <h5>Modular Design</h5>
-                    <p>Lorem ipsum dolor sit amet, ete elit consectetur adipisicing. Omnis quae, ipsam impedit eius,
-                        vero.</p>
-                </div><!-- / .ft-item -->
-
-                <!-- Item 4 -->
-                <div class="col-md-12 no-gap ws-s ft-item ft-material">
-                    <i class="fa fa-star"></i>
-                    <h5>Lots of features</h5>
-                    <p>Lorem ipsum dolor sit amet, ete elit consectetur adipisicing. Omnis quae, ipsam impedit eius,
-                        vero.</p>
-                </div><!-- / .ft-item -->
-
-            </div><!-- / .col-lg-4 -->
-
-        </div><!-- / .row -->
-    </section><!-- / .container -->
+                </div>
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section>
+    <!-- end wedding-couple-section -->
 
 
-
-    <!-- ========== Cricle Counters - Parallax ========== -->
-
-    <div id="skillsCircles" class="circles-counters">
+    <!-- start count-down-section -->
+    <section class="count-down-section section-padding parallax" data-bg-image="img/img-9.jpg" data-speed="7"
+             style="background-image: url(img/img-9.jpg); background-position: 50% -164.571px; background-size: cover;">
         <div class="container">
-            <div id="counters" class="row count-wrapper">
-
-                <!-- Item 1 -->
-                <div class="col-sm-6 col-lg-3 circle-item wow zoomIn" data-wow-duration=".6s" data-wow-delay=".3s">
-                    <div class="chart" data-percent="75"><span class="circle-icon linea-basic-gear"></span></div>
-                    <span class="circle-text">Web Development</span>
-                </div>
-
-                <!-- Item 2 -->
-                <div class="col-sm-6 col-lg-3 circle-item wow zoomIn" data-wow-duration=".6s">
-                    <div class="chart" data-percent="75"><span class="circle-icon linea-basic-display"></span></div>
-                    <span class="circle-text">Web Design</span>
-                </div>
-
-                <!-- Item 3 -->
-                <div class="col-sm-6 col-lg-3 circle-item wow zoomIn" data-wow-duration=".6s">
-                    <div class="chart" data-percent="75"><span class="circle-icon linea-basic-photo"></span></div>
-                    <span class="circle-text">Photography</span>
-                </div>
-
-                <!-- Item 4 -->
-                <div class="col-sm-6 col-lg-3 circle-item wow zoomIn" data-wow-duration=".6s" data-wow-delay=".3s">
-                    <div class="chart" data-percent="75"><span class="circle-icon linea-basic-star"></span></div>
-                    <span class="circle-text">Marketing</span>
-                </div>
-
-            </div><!-- / .row -->
-        </div><!-- / .container -->
-    </div><!-- / .circles-counters -->
-
-
-
-    <!-- ========== Team ========== -->
-
-    <div class="gray-bg">
-        <section id="about" class="container section team-4col">
             <div class="row">
-
-                <header class="sec-heading">
-                    <h2>Meet the team</h2>
-                    <span class="subheading">We are creative professionals</span>
-                </header>
-
-                <!-- Member 1 -->
-                <div class="col-lg-3 col-md-6 mb-sm-50">
-                    <div class="t-item wow fadeIn" data-wow-duration="2s">
-
-                        <!-- Image -->
-                        <div class="t-image">
-                            <img src="http://placehold.it/360x440" alt="Team Member" class="img-responsive">
-                            <div class="t-description">
-                                <div class="content-wrapper">
-                                    <h4 class="h-alt">Hello!</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud.</p>
-                                </div>
-                            </div>
+                <div class="col col-md-4">
+                    <h2><span>We are waiting for.....</span> The adventure</h2>
+                </div>
+                <div class="col col-md-7 col-md-offset-1">
+                    <div class="count-down-clock">
+                        <div id="clock">
+                            <div class="box">
+                                <div>70</div>
+                                <span>Days</span></div>
+                            <div class="box">
+                                <div>12</div>
+                                <span>Hours</span></div>
+                            <div class="box">
+                                <div>16</div>
+                                <span>Mins</span></div>
+                            <div class="box">
+                                <div>31</div>
+                                <span>Secs</span></div>
                         </div>
-
-                        <!-- Info -->
-                        <div class="t-info">
-                            <h4 class="t-name">Philip Lee</h4>
-                            <span class="t-role">CEO &amp; Founder</span>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                            </ul>
-                        </div>
-
-                    </div><!-- / .t-item -->
-                </div><!-- / .col-lg-3 -->
-
-
-                <!-- Member 2 -->
-                <div class="col-lg-3 col-md-6 mb-sm-50">
-                    <div class="t-item wow fadeIn" data-wow-duration="2s" data-wow-delay=".3s">
-
-                        <!-- Image -->
-                        <div class="t-image">
-                            <img src="http://placehold.it/360x440" alt="Team Member" class="img-responsive">
-                            <div class="t-description">
-                                <div class="content-wrapper">
-                                    <h4 class="h-alt">Hello!</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Info -->
-                        <div class="t-info">
-                            <h4 class="t-name">Carol Greene</h4>
-                            <span class="t-role">Art Director</span>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                            </ul>
-                        </div>
-
-                    </div><!-- / .t-item -->
-                </div><!-- / .col-lg-3 -->
-
-
-                <!-- Member 3 -->
-                <div class="col-lg-3 col-md-6 mb-sm-50">
-                    <div class="t-item wow fadeIn" data-wow-duration="2s" data-wow-delay=".6s">
-
-                        <!-- Image -->
-                        <div class="t-image">
-                            <img src="http://placehold.it/360x440" alt="Team Member" class="img-responsive">
-                            <div class="t-description">
-                                <div class="content-wrapper">
-                                    <h4 class="h-alt">Hello!</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                                        nostrud.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Info -->
-                        <div class="t-info">
-                            <h4 class="t-name">Tyler Owens</h4>
-                            <span class="t-role">Lead Designer</span>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                            </ul>
-                        </div>
-
-                    </div><!-- / .t-item -->
-                </div><!-- / .col-lg-3 -->
-
-
-                <!-- Join -->
-                <div class="col-lg-3 col-md-6">
-                    <div class="t-join wow fadeIn" data-wow-duration="2s" data-wow-delay=".9s">
-
-                        <!-- Image -->
-                        <div class="t-image">
-                            <i class="fa fa-user bg-icon"></i>
-                            <div class="t-description">
-                                <h4 class="h-alt">Apply Now</h4>
-                                <p>We are allways looking for passionate lorem ipsum dolor sit amet, consectetur dolor
-                                    adipisicing elit. Architecto aliquam voluptas doloribus maiores sit.</p>
-                            </div>
-                        </div>
-
-                        <!-- Info -->
-                        <div class="t-info">
-                            <h4 class="t-name">You?</h4>
-                            <span class="t-role">Junior Developer</span>
-                            <button class="btn btn-small" type="file">send cv</button>
-                        </div>
-
-                    </div><!-- / .t-item -->
-                </div><!-- / .col-lg-3 -->
-
-
-            </div><!-- / .row -->
-        </section><!-- / .contianer -->
-    </div><!-- / .gray-bg -->
-
-
-
-    <!-- ========== Featured Projects ========== -->
-
-    <div id="portfolio" class="container-fluid ft-hover-item">
-        <div class="row">
-
-            <!-- Item 1 -->
-            <div class="ft-item ft-1 col-md-6">
-                <div class="bg-overlay">
-
-                    <div class="content-wrapper">
-                        <a href="pages/portfolio/portfolio-single-1.html"><h3>Branding Identity</h3></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eiusmod tempor
-                            incididunt ut labore</p>
-                        <a href="pages/portfolio/portfolio-single-1.html" class="btn-ghost btn-ghost-light ft-button">View
-                            Project</a>
                     </div>
-
-                </div><!-- / .bg-overlay -->
-            </div><!-- / .ft-item -->
-
-            <!-- Item 2 -->
-            <div class="ft-item ft-2 col-md-6">
-                <div class="bg-overlay">
-
-                    <div class="content-wrapper">
-                        <a href="pages/portfolio/portfolio-single-1.html"><h3>Photography</h3></a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eiusmod tempor
-                            incididunt ut labore</p>
-                        <a href="pages/portfolio/portfolio-single-1.html" class="btn-ghost btn-ghost-light ft-button">View
-                            Project</a>
-                    </div>
-
-                </div><!-- / .bg-overlay -->
-            </div><!-- / .ft-item -->
-
-        </div><!-- / .row -->
-    </div><!-- / .container-fluid -->
+                </div>
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section>
+    <!-- end count-down-section -->
 
 
-
-    <!-- ========== Portfolio ========== -->
-
-    <section class="container-fluid portfolio-layout portfolio-columns-fw">
-        <div class="row">
-            <header class="sec-heading">
-                <h2>Some of our projects</h2>
-                <span class="subheading">Lorem ipsum dolor sit amet consectetur adipisicing</span>
-            </header>
-        </div><!-- / .row -->
-
-        <!-- Filters -->
-        <div class="row">
-            <ul id="pfolio-filters" class="portfolio-filters">
-                <li class="active"><a href="#" data-filter="*">All</a></li>
-                <li><a href="#" data-filter=".webdesing">Webdesign</a></li>
-                <li><a href="#" data-filter=".print">Print</a></li>
-                <li><a href="#" data-filter=".photo">Photography</a></li>
-            </ul>
-        </div>
-
-        <div class="row">
-            <div id="pfolio">
-
-                <!-- Item 1 -->
-                <div class="col-md-4 portfolio-item print">
-                    <div class="p-wrapper hover-default">
-                        <img src="http://placehold.it/990x650/aaa/ccc" alt="Project Example">
-                        <div class="p-hover">
-                            <div class="p-content">
-                                <h4>Project Name</h4>
-                                <h6 class="subheading">Sub heading for the project</h6>
-                            </div>
-                        </div>
-                        <a href="http://placehold.it/990x650/aaa/ccc" class="open-btn open-gallery"><i
-                                    class="fa fa-expand"></i></a>
-                    </div>
-                </div><!-- / .portfolio-item -->
-
-                <!-- Item 2 -->
-                <div class="col-md-4 portfolio-item webdesing photo">
-                    <div class="p-wrapper hover-default">
-                        <img src="http://placehold.it/990x650" alt="Project Example">
-                        <div class="p-hover">
-                            <div class="p-content">
-                                <h4>Project Name</h4>
-                                <h6 class="subheading">Sub heading for the project</h6>
-                            </div>
-                        </div>
-                        <a href="http://placehold.it/990x650" class="open-btn open-gallery"><i class="fa fa-expand"></i></a>
-                    </div>
-                </div><!-- / .portfolio-item -->
-
-                <!-- Item 3 -->
-                <div class="col-md-4 portfolio-item photo print">
-                    <div class="p-wrapper hover-default">
-                        <img src="http://placehold.it/990x650/aaa/ccc" alt="Project Example">
-                        <div class="p-hover">
-                            <div class="p-content">
-                                <h4>Project Name</h4>
-                                <h6 class="subheading">Sub heading for the project</h6>
-                            </div>
-                        </div>
-                        <a href="http://placehold.it/990x650/aaa/ccc" class="open-btn open-gallery"><i
-                                    class="fa fa-expand"></i></a>
-                    </div>
-                </div><!-- / .portfolio-item -->
-
-                <!-- Item 4 -->
-                <div class="col-md-4 portfolio-item webdesing print">
-                    <div class="p-wrapper hover-default">
-                        <img src="http://placehold.it/990x650" alt="Project Example">
-                        <div class="p-hover">
-                            <div class="p-content">
-                                <h4>Project Name</h4>
-                                <h6 class="subheading">Sub heading for the project</h6>
-                            </div>
-                        </div>
-                        <a href="http://placehold.it/990x650" class="open-btn open-gallery"><i class="fa fa-expand"></i></a>
-                    </div>
-                </div><!-- / .portfolio-item -->
-
-                <!-- Item 5 -->
-                <div class="col-md-4 portfolio-item webdesing">
-                    <div class="p-wrapper hover-default">
-                        <img src="http://placehold.it/990x650/aaa/ccc" alt="Project Example">
-                        <div class="p-hover">
-                            <div class="p-content">
-                                <h4>Project Name</h4>
-                                <h6 class="subheading">Sub heading for the project</h6>
-                            </div>
-                        </div>
-                        <a href="http://placehold.it/990x650/aaa/ccc" class="open-btn open-gallery"><i
-                                    class="fa fa-expand"></i></a>
-                    </div>
-                </div><!-- / .portfolio-item -->
-
-                <!-- Item 6 -->
-                <div class="col-md-4 portfolio-item photo print webdesing">
-                    <div class="p-wrapper hover-default">
-                        <img src="http://placehold.it/990x650" alt="Project Example">
-                        <div class="p-hover">
-                            <div class="p-content">
-                                <h4>Project Name</h4>
-                                <h6 class="subheading">Sub heading for the project</h6>
-                            </div>
-                        </div>
-                        <a href="http://placehold.it/990x650" class="open-btn open-gallery"><i class="fa fa-expand"></i></a>
-                    </div>
-                </div><!-- / .portfolio-item -->
-
-            </div><!-- / #pfolio -->
-        </div><!-- / .row -->
-    </section><!-- / .portfolio-columns-fw -->
-
-
-
-    <!-- ========== CTA - Contact Link ========== -->
-
-    <div class="cta-link cta-dark">
-        <div class="bg-overlay">
-
-            <div class="cta-wrapper">
-                <h3 class="h-alt wow fadeIn" data-wow-delay=".1s" data-wow-duration="1s">See what we can do for you</h3>
-                <a href="#contact" class="btn btn-light btn-large wow fadeIn" data-wow-delay=".3s"
-                   data-wow-duration="1s">Get in touch</a>
-            </div>
-
-        </div>
-    </div><!-- / .dark-bg .cta-link -->
-
-
-
-    <!-- ========== Testimonials ========== -->
-
-    <div id="testimonials" class="testimonials-parallax">
-        <div class="bg-overlay">
-
-            <div class="t-wrapper t-slider">
-
-                <!-- Testimonial 1 -->
-                <blockquote>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip.
-                    <span class="et-quote t-type"></span>
-                    <footer>
-                        <cite>
-                            <h5 class="h-alt">Patrick Owens</h5>
-                            <h5>CEO - Company Name</h5>
-                        </cite>
-                    </footer>
-                </blockquote>
-
-                <!-- Testimonial 2 -->
-                <blockquote>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip.
-                    <span class="et-quote t-type"></span>
-                    <footer>
-                        <cite>
-                            <h5 class="h-alt">Patrick Owens</h5>
-                            <h5>CEO - Company Name</h5>
-                        </cite>
-                    </footer>
-                </blockquote>
-
-                <!-- Testimonial 3 -->
-                <blockquote>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip.
-                    <span class="et-quote t-type"></span>
-                    <footer>
-                        <cite>
-                            <h5 class="h-alt">Patrick Owens</h5>
-                            <h5>CEO - Company Name</h5>
-                        </cite>
-                    </footer>
-                </blockquote>
-
-            </div><!-- / .t-wrapper -->
-
-            <!-- Client Slider -->
-            <ul class="t-clients clients-slider">
-                <li><a href="#"><img src="assets/images/client-logo-placeholder.png" alt="Client"></a></li>
-                <li><a href="#"><img src="assets/images/client-logo-placeholder.png" alt="Client"></a></li>
-                <li><a href="#"><img src="assets/images/client-logo-placeholder.png" alt="Client"></a></li>
-                <li><a href="#"><img src="assets/images/client-logo-placeholder.png" alt="Client"></a></li>
-                <li><a href="#"><img src="assets/images/client-logo-placeholder.png" alt="Client"></a></li>
-                <li><a href="#"><img src="assets/images/client-logo-placeholder.png" alt="Client"></a></li>
-            </ul><!-- / .t-clients -->
-
-        </div><!-- / .bg-overlay -->
-    </div><!-- / .testimonials-parallax -->
-
-
-
-    <!-- ========== Blog Preview - 3col ========== -->
-
-    <div class="gray-bg">
-        <section id="blog" class="section container blog-columns blog-preview">
+    <!-- start story-section -->
+    <section class="story-section section-padding" id="story">
+        <div class="container">
             <div class="row">
+                <div class="col col-xs-12">
+                    <div class="section-title">
+                        <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
+                        <h2>Our love story</h2>
+                    </div>
+                </div>
+            </div> <!-- end section-title -->
 
-                <header class="sec-heading">
-                    <h2>Latest from our blog</h2>
-                    <span class="subheading">Check out our blog to see what were up to</span>
-                </header>
-
-
-                <!-- Blog Post 1 -->
-                <div class="col-lg-4 col-md-6 mb-sm-50">
-                    <div class="blog-post wow fadeIn" data-wow-duration="2s">
-
-                        <!-- Image -->
-                        <a href="pages/blog/blog-post.html" class="post-img"><img src="http://placehold.it/990x715"
-                                                                                  alt="Blog Post 1"></a>
-
-                        <div class="bp-content">
-
-                            <!-- Meta data -->
-                            <div class="post-meta">
-                                <a href="#" class="post-date">
-                                    <i class="fa fa-calendar-o"></i>
-                                    <span>August 01.2015</span>
-                                </a>
-                                <a href="#" class="post-comments">
-                                    <i class="fa fa-comments-o"></i>
-                                    <span>12</span>
-                                </a>
-                            </div><!-- / .meta -->
-
-                            <!-- Post Title -->
-                            <a href="pages/blog/blog-post.html" class="post-title"><h4>Blog Post Title</h4></a>
-
-                            <!-- Blurb -->
-                            <p>Lorem ipsum dolor sit amet, tempor consectetur adipisicing elit, sed do eiusmod
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad ...</p>
-
-                            <!-- Link -->
-                            <a href="pages/blog/blog-post.html" class="btn btn-small">Read More</a>
-
-                        </div><!-- / .bp-content -->
-
-                    </div><!-- / .blog-post -->
-                </div><!-- / .col-lg-4 -->
+            <div class="row">
+                <div class="col col-xs-12">
+                    <div class="story-timeline">
+                        <div class="row">
+                            <div class="col col-md-6">
+                                <div class="story-text right-align-text">
+                                    <h3>First meet</h3>
+                                    <span class="date">Jan 12 2017</span>
+                                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet
+                                        mornings of spring which I enjoy with my whole heart. I am alone, and feel the
+                                        charm of existence in this spot, which was created for the bliss of souls like
+                                        mine. I am so happy, my dear friend, </p>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="img-holder">
+                                    <img src="img/img-1(1).jpg" alt=""
+                                         class="img img-responsive">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-md-6">
+                                <div class="img-holder right-align-text story-slider owl-carousel owl-theme owl-loaded">
 
 
-                <!-- Blog Post 2 -->
-                <div class="col-lg-4 col-md-6 mb-sm-50">
-                    <div class="blog-post wow fadeIn" data-wow-duration="2s" data-wow-delay=".3s">
-
-                        <!-- Image -->
-                        <a href="pages/blog/blog-post.html" class="post-img"><img src="http://placehold.it/990x715"
-                                                                                  alt="Blog Post 1"></a>
-
-                        <div class="bp-content">
-
-                            <!-- Meta data -->
-                            <div class="post-meta">
-                                <a href="#" class="post-date">
-                                    <i class="fa fa-calendar-o"></i>
-                                    <span>August 01.2015</span>
-                                </a>
-                                <a href="#" class="post-comments">
-                                    <i class="fa fa-comments-o"></i>
-                                    <span>12</span>
-                                </a>
-                            </div><!-- / .meta -->
-
-                            <!-- Post Title -->
-                            <a href="pages/blog/blog-post.html" class="post-title"><h4>Blog Post Title</h4></a>
-
-                            <!-- Blurb -->
-                            <p>Lorem ipsum dolor sit amet, tempor consectetur adipisicing elit, sed do eiusmod
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad ...</p>
-
-                            <!-- Link -->
-                            <a href="pages/blog/blog-post.html" class="btn btn-small">Read More</a>
-
-                        </div><!-- / .bp-content -->
-
-                    </div><!-- / .blog-post -->
-                </div><!-- / .col-lg-4 -->
-
-
-                <!-- Blog Post 3 -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="blog-post wow fadeIn" data-wow-duration="2s" data-wow-delay=".6s">
-
-                        <!-- Image -->
-                        <a href="pages/blog/blog-post.html" class="post-img"><img src="http://placehold.it/990x715"
-                                                                                  alt="Blog Post 1"></a>
-
-                        <div class="bp-content">
-
-                            <!-- Meta data -->
-                            <div class="post-meta">
-                                <a href="#" class="post-date">
-                                    <i class="fa fa-calendar-o"></i>
-                                    <span>August 01.2015</span>
-                                </a>
-                                <a href="#" class="post-comments">
-                                    <i class="fa fa-comments-o"></i>
-                                    <span>12</span>
-                                </a>
-                            </div><!-- / .meta -->
-
-                            <!-- Post Title -->
-                            <a href="pages/blog/blog-post.html" class="post-title"><h4>Blog Post Title</h4></a>
-
-                            <!-- Blurb -->
-                            <p>Lorem ipsum dolor sit amet, tempor consectetur adipisicing elit, sed do eiusmod
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad ...</p>
-
-                            <!-- Link -->
-                            <a href="pages/blog/blog-post.html" class="btn btn-small">Read More</a>
-
-                        </div><!-- / .bp-content -->
-
-                    </div><!-- / .blog-post -->
-                </div><!-- / .col-lg-4 -->
+                                    <div class="owl-stage-outer">
+                                        <div class="owl-stage"
+                                             style="transform: translate3d(-1320px, 0px, 0px); transition: all 1s ease 0s; width: 2640px;">
+                                            <div class="owl-item cloned" style="width: 440px; margin-right: 0px;"><img
+                                                        src="img/img-2(1).jpg"
+                                                        alt="" class="img img-responsive"></div>
+                                            <div class="owl-item cloned" style="width: 440px; margin-right: 0px;"><img
+                                                        src="img/img-3.jpg"
+                                                        alt="" class="img img-responsive"></div>
+                                            <div class="owl-item" style="width: 440px; margin-right: 0px;"><img
+                                                        src="img/img-2(1).jpg"
+                                                        alt="" class="img img-responsive"></div>
+                                            <div class="owl-item active" style="width: 440px; margin-right: 0px;"><img
+                                                        src="img/img-3.jpg"
+                                                        alt="" class="img img-responsive"></div>
+                                            <div class="owl-item cloned" style="width: 440px; margin-right: 0px;"><img
+                                                        src="img/img-2(1).jpg"
+                                                        alt="" class="img img-responsive"></div>
+                                            <div class="owl-item cloned" style="width: 440px; margin-right: 0px;"><img
+                                                        src="img/img-3.jpg"
+                                                        alt="" class="img img-responsive"></div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-controls">
+                                        <div class="owl-nav">
+                                            <div class="owl-prev" style="display: none;">prev</div>
+                                            <div class="owl-next" style="display: none;">next</div>
+                                        </div>
+                                        <div class="owl-dots" style="display: none;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col col-md-6 text-holder">
+                                    <span class="heart">
+                                        <i class="fa fa-heart"></i>
+                                    </span>
+                                <div class="story-text">
+                                    <h3>First date</h3>
+                                    <span class="date">Feb 14 2017</span>
+                                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet
+                                        mornings of spring which I enjoy with my whole heart. I am alone, and feel the
+                                        charm of existence in this spot, which was created for the bliss of souls like
+                                        mine. I am so happy, my dear friend, </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-md-6 text-holder right-heart">
+                                    <span class="heart">
+                                        <i class="fa fa-heart"></i>
+                                    </span>
+                                <div class="story-text right-align-text">
+                                    <h3>Proposal</h3>
+                                    <span class="date">Apr 14 2017</span>
+                                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet
+                                        mornings of spring which I enjoy with my whole heart. I am alone, and feel the
+                                        charm of existence in this spot, which was created for the bliss of souls like
+                                        mine. I am so happy, my dear friend, </p>
+                                </div>
+                            </div>
+                            <div class="col col-md-6">
+                                <div class="img-holder right-align-text story-slider owl-carousel owl-theme owl-loaded">
 
 
-            </div><!-- / .row -->
-        </section><!-- / .container -->
-    </div><!-- / .gray-bg -->
+                                    <div class="owl-stage-outer">
+                                        <div class="owl-stage"
+                                             style="transform: translate3d(-1760px, 0px, 0px); transition: all 1s ease 0s; width: 2640px;">
+                                            <div class="owl-item cloned" style="width: 440px; margin-right: 0px;"><img
+                                                        src="img/img-7.jpg"
+                                                        alt="" class="img img-responsive"></div>
+                                            <div class="owl-item cloned" style="width: 440px; margin-right: 0px;"><img
+                                                        src="img/img-5.jpg"
+                                                        alt="" class="img img-responsive"></div>
+                                            <div class="owl-item" style="width: 440px; margin-right: 0px;"><img
+                                                        src="img/img-7.jpg"
+                                                        alt="" class="img img-responsive"></div>
+                                            <div class="owl-item" style="width: 440px; margin-right: 0px;"><img
+                                                        src="img/img-5.jpg"
+                                                        alt="" class="img img-responsive"></div>
+                                            <div class="owl-item cloned active"
+                                                 style="width: 440px; margin-right: 0px;"><img
+                                                        src="img/img-7.jpg"
+                                                        alt="" class="img img-responsive"></div>
+                                            <div class="owl-item cloned" style="width: 440px; margin-right: 0px;"><img
+                                                        src="img/img-5.jpg"
+                                                        alt="" class="img img-responsive"></div>
+                                        </div>
+                                    </div>
+                                    <div class="owl-controls">
+                                        <div class="owl-nav">
+                                            <div class="owl-prev" style="display: none;">prev</div>
+                                            <div class="owl-next" style="display: none;">next</div>
+                                        </div>
+                                        <div class="owl-dots" style="display: none;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-md-6">
+                                <div class="img-holder video-holder">
+                                    <img src="img/img-8.jpg" alt=""
+                                         class="img img-responsive">
+                                    <a href="https://www.youtube.com/embed/XSGBVzeBUbk?autoplay=1" data-type="iframe"
+                                       class="video-play-btn">
+                                        <i class="fa fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col col-md-6 text-holder">
+                                    <span class="heart">
+                                        <i class="fa fa-heart"></i>
+                                    </span>
+                                <div class="story-text">
+                                    <h3>Enagagement</h3>
+                                    <span class="date">Jul 14 2017</span>
+                                    <p>A wonderful serenity has taken possession of my entire soul, like these sweet
+                                        mornings of spring which I enjoy with my whole heart. I am alone, and feel the
+                                        charm of existence in this spot, which was created for the bliss of souls like
+                                        mine. I am so happy, my dear friend, </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section>
+    <!-- end story-section -->
 
 
+    <!-- start cta -->
+    <section class="cta section-padding parallax" data-bg-image="img/img-2.jpg" data-speed="7"
+             style="background-image: url(img/img-1.jpg); background-position: 50% -477.616px; background-size: cover;">
+        <div class="container">
+            <div class="row">
+                <div class="col col-xs-12">
+                    <h2><span>We are going to...</span> Celebrate Our Love</h2>
+                </div>
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section>
+    <!-- end cta -->
 
-    <!-- ========== CTA - Newsletter Signup ========== -->
 
-    <div class="cta-newsletter cta-dark">
-        <div class="bg-overlay">
-            <div class="cta-wrapper">
+    <!-- start events-section -->
+    <section class="events-section section-padding" id="events">
+        <div class="container">
+            <div class="row">
+                <div class="col col-xs-12">
+                    <div class="section-title">
+                        <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
+                        <h2>Wedding events</h2>
+                    </div>
+                </div>
+            </div> <!-- end section-title -->
 
-                <h3 class="cta-lead h-alt wow fadeIn" data-wow-delay=".1s" data-wow-duration="1s">Join our
-                    newsletter</h3>
+            <div class="row">
+                <div class="col col-lg-10 col-lg-offset-1">
+                    <div class="event">
+                        <div class="img-holder">
+                            <img src="img/img-1(2).jpg" alt=""
+                                 class="img img-responsive">
+                        </div>
+                        <div class="details">
+                            <h3>The reception</h3>
+                            <ul>
+                                <li><i class="fa fa-map-marker"></i> 32 big bro road, Chanpai, London.</li>
+                                <li><i class="fa fa-clock-o"></i> Nov 25 2017, 9AM - 5PM</li>
+                            </ul>
+                            <p>when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                book. It has survived not only five centuries, but also the leap into electronic
+                                typesetting, remaining essentially unchanged. </p>
+                            <a class="see-location-btn popup-gmaps"
+                               href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25211.21212385712!2d144.95275648773628!3d-37.82748510398018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0x5045675218ce7e0!2zTWVsYm91cm5lIFZJQyAzMDA0LCDgpoXgprjgp43gpp_gp43gprDgp4fgprLgpr_gpq_gprzgpr4!5e0!3m2!1sbn!2sbd!4v1503742051881">
+                                See location <i class="fa fa-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="event">
+                        <div class="img-holder">
+                            <img src="img/img-2(2).jpg" alt=""
+                                 class="img img-responsive">
+                        </div>
+                        <div class="details">
+                            <h3>Wedding party</h3>
+                            <ul>
+                                <li><i class="fa fa-map-marker"></i> 32 big bro road, Chanpai, London.</li>
+                                <li><i class="fa fa-clock-o"></i> Nov 25 2017, 9AM - 5PM</li>
+                            </ul>
+                            <p>when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                book. It has survived not only five centuries, but also the leap into electronic
+                                typesetting, remaining essentially unchanged. </p>
+                            <a class="see-location-btn popup-gmaps"
+                               href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.0160484383277!2d144.99053291585201!3d-37.81309307975254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642ef89a7e023%3A0xb1353055e38c1ab8!2sNew+York+Tomato+Cafe!5e0!3m2!1sbn!2sbd!4v1503743893919">
+                                See location <i class="fa fa-angle-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section>
+    <!-- end events-section -->
 
-                <form class="mc-ajax mc-form subscribe-form" _lpchecked="1">
 
-                    <!-- Email -->
-                    <input type="email" name="EMAIL" placeholder="Your email address" id="mc-email" class="wow fadeInUp"
-                           data-wow-delay=".1s" data-wow-duration="1s">
+    <!-- start inportant-people-section -->
+    <section class="inportant-people-section section-padding" id="people">
+        <div class="container">
+            <div class="row">
+                <div class="col col-xs-12">
+                    <div class="section-title">
+                        <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
+                        <h2>Groomsmen &amp; Bridesmaid</h2>
+                    </div>
+                </div>
+            </div> <!-- end section-title -->
 
-                    <!-- Send Button -->
-                    <input type="submit" name="subscribe" value="Join Us"
-                           class="btn btn-light btn-large wow fadeInUp mc-send-btn" data-wow-delay=".1s"
-                           data-wow-duration="1s">
+            <div class="row">
+                <div class="col col-xs-12">
+                    <div class="inportant-people-content">
+                        <div class="tablist">
+                            <ul class="nav">
+                                <li class="active">
+                                    <a href="#groomsmen"
+                                       data-toggle="tab" aria-expanded="true">Groomsmen</a>
+                                </li>
+                                <li class="">
+                                    <a href="#bridesmaid"
+                                       data-toggle="tab" aria-expanded="false">Bridesmaid</a>
+                                </li>
+                            </ul>
+                        </div>
 
-                    <!-- Info (uncomment this for extra info) -->
-                    <!-- <label for="mc-email" class="mc-info"></label> -->
+                        <div class="tab-content">
+                            <div class="tab-pane fade grid-wrapper active in" id="groomsmen">
+                                <div class="grid">
+                                    <div class="img-holder">
+                                        <a href="img/img-1(3).jpg"
+                                           class="popup-image">
+                                            <img src="img/img-1(3).jpg"
+                                                 alt="" class="img img-responsive">
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <h3>Jhon Michel</h3>
+                                        <span>Best man</span>
+                                        <ul class="social-links">
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-facebook"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-twitter"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-pinterest"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-vimeo"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="grid">
+                                    <div class="img-holder">
+                                        <a href="img/img-2(3).jpg"
+                                           class="popup-image">
+                                            <img src="img/img-2(3).jpg"
+                                                 alt="" class="img img-responsive">
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <h3>Chasmoos jhon</h3>
+                                        <span>Best friden</span>
+                                        <ul class="social-links">
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-facebook"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-twitter"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-pinterest"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-vimeo"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="grid">
+                                    <div class="img-holder">
+                                        <a href="img/img-3(1).jpg"
+                                           class="popup-image">
+                                            <img src="img/img-3(1).jpg"
+                                                 alt="" class="img img-responsive">
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <h3>Kaiste pate</h3>
+                                        <span>Friend</span>
+                                        <ul class="social-links">
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-facebook"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-twitter"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-pinterest"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-vimeo"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="grid">
+                                    <div class="img-holder">
+                                        <a href="img/img-4.jpg"
+                                           class="popup-image">
+                                            <img src="img/img-4.jpg"
+                                                 alt="" class="img img-responsive">
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <h3>Hatu Michel</h3>
+                                        <span>Friend</span>
+                                        <ul class="social-links">
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-facebook"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-twitter"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-pinterest"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-vimeo"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="grid">
+                                    <div class="img-holder">
+                                        <a href="img/img-5(1).jpg"
+                                           class="popup-image">
+                                            <img src="img/img-5(1).jpg"
+                                                 alt="" class="img img-responsive">
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <h3>Michel doin</h3>
+                                        <span>Friend</span>
+                                        <ul class="social-links">
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-facebook"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-twitter"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-pinterest"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-vimeo"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="grid">
+                                    <div class="img-holder">
+                                        <a href="img/img-6.jpg"
+                                           class="popup-image">
+                                            <img src="img/img-6.jpg"
+                                                 alt="" class="img img-responsive">
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <h3>Topper jone</h3>
+                                        <span>Friend</span>
+                                        <ul class="social-links">
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-facebook"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-twitter"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-pinterest"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-vimeo"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
 
-                    <!-- Ajax message -->
-                    <div class="subscribe-result"></div>
+                            <div class="tab-pane fade grid-wrapper" id="bridesmaid">
+                                <div class="grid">
+                                    <div class="img-holder">
+                                        <a href="img/img-1(4).jpg"
+                                           class="popup-image">
+                                            <img src="img/img-1(4).jpg"
+                                                 alt="" class="img img-responsive">
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <h3>Rachel Li</h3>
+                                        <span>Made of honor</span>
+                                        <ul class="social-links">
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-facebook"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-twitter"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-pinterest"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-vimeo"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="grid">
+                                    <div class="img-holder">
+                                        <a href="img/img-2(4).jpg"
+                                           class="popup-image">
+                                            <img src="img/img-2(4).jpg"
+                                                 alt="" class="img img-responsive">
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <h3>Male Vign</h3>
+                                        <span>Best friend</span>
+                                        <ul class="social-links">
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-facebook"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-twitter"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-pinterest"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-vimeo"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="grid">
+                                    <div class="img-holder">
+                                        <a href="img/img-3(2).jpg"
+                                           class="popup-image">
+                                            <img src="img/img-3(2).jpg"
+                                                 alt="" class="img img-responsive">
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <h3>Jonny Mich</h3>
+                                        <span>Friend</span>
+                                        <ul class="social-links">
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-facebook"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-twitter"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-pinterest"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-vimeo"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="grid">
+                                    <div class="img-holder">
+                                        <a href="img/img-4(1).jpg"
+                                           class="popup-image">
+                                            <img src="img/img-4(1).jpg"
+                                                 alt="" class="img img-responsive">
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <h3>Brodd Wid</h3>
+                                        <span>Friend</span>
+                                        <ul class="social-links">
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-facebook"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-twitter"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-pinterest"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-vimeo"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="grid">
+                                    <div class="img-holder">
+                                        <a href="img/img-5(2).jpg"
+                                           class="popup-image">
+                                            <img src="img/img-5(2).jpg"
+                                                 alt="" class="img img-responsive">
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <h3>Nokshal bedi</h3>
+                                        <span>Friend</span>
+                                        <ul class="social-links">
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-facebook"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-twitter"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-pinterest"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-vimeo"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="grid">
+                                    <div class="img-holder">
+                                        <a href="img/img-6(1).jpg"
+                                           class="popup-image">
+                                            <img src="img/img-6(1).jpg"
+                                                 alt="" class="img img-responsive">
+                                        </a>
+                                    </div>
+                                    <div class="details">
+                                        <h3>Holly Fie</h3>
+                                        <span>Friend</span>
+                                        <ul class="social-links">
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-facebook"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-twitter"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-pinterest"></i></a></li>
+                                            <li>
+                                                <a href="#"><i
+                                                            class="fa fa-vimeo"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section>
+    <!-- end inportant-people-section -->
 
-                </form>
 
-            </div><!-- / .cta-wrapper -->
-        </div><!-- / .bg-overlay -->
-    </div><!-- / .cta-newsletter -->
+    <!-- start gallery-section -->
+    <section class="gallery-section section-padding" id="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col col-xs-12">
+                    <div class="section-title">
+                        <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
+                        <h2>Our gallery</h2>
+                    </div>
+                </div>
+            </div> <!-- end section-title -->
+
+            <div class="row">
+                <div class="col col-xs-12 sortable-gallery">
+                    <div class="gallery-filters">
+                        <ul>
+                            <li><a data-filter="*"
+                                   href="#"
+                                   class="current">All</a></li>
+                            <li><a data-filter=".wedding"
+                                   href="#">Wedding</a>
+                            </li>
+                            <li><a data-filter=".ceremony"
+                                   href="#">Ceremony</a>
+                            </li>
+                            <li><a data-filter=".party"
+                                   href="#">Party</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="gallery-container gallery-fancybox masonry-gallery"
+                         style="position: relative; height: 1046.23px;">
+                        <div class="grid wedding" style="position: absolute; left: 0%; top: 0px;">
+                            <a href="img/img-1(5).jpg" class="fancybox"
+                               data-fancybox-group="gall-1">
+                                <img src="img/img-1(5).jpg" alt=""
+                                     class="img img-responsive">
+                            </a>
+                        </div>
+                        <div class="grid wedding ceremony" style="position: absolute; left: 33.2468%; top: 0px;">
+                            <a href="img/img-2(5).jpg" class="fancybox"
+                               data-fancybox-group="gall-1">
+                                <img src="img/img-2(5).jpg" alt=""
+                                     class="img img-responsive">
+                            </a>
+                        </div>
+                        <div class="grid ceremony eudcation" style="position: absolute; left: 66.5801%; top: 0px;">
+                            <a href="img/img-3(3).jpg" class="fancybox"
+                               data-fancybox-group="gall-1">
+                                <img src="img/img-3(3).jpg" alt=""
+                                     class="img img-responsive">
+                            </a>
+                        </div>
+                        <div class="grid wedding party" style="position: absolute; left: 0%; top: 261px;">
+                            <a href="img/img-4(2).jpg" class="fancybox"
+                               data-fancybox-group="gall-1">
+                                <img src="img/img-4(2).jpg" alt=""
+                                     class="img img-responsive">
+                            </a>
+                        </div>
+                        <div class="grid ceremony" style="position: absolute; left: 33.2468%; top: 292px;">
+                            <a href="img/img-5(3).jpg" class="fancybox"
+                               data-fancybox-group="gall-1">
+                                <img src="img/img-5(3).jpg" alt=""
+                                     class="img img-responsive">
+                            </a>
+                        </div>
+                        <div class="grid party" style="position: absolute; left: 66.5801%; top: 372px;">
+                            <a href="img/img-6(2).jpg" class="fancybox"
+                               data-fancybox-group="gall-1">
+                                <img src="img/img-6(2).jpg" alt=""
+                                     class="img img-responsive">
+                            </a>
+                        </div>
+                        <div class="grid wedding" style="position: absolute; left: 33.2468%; top: 628px;">
+                            <a href="img/img-7(1).jpg" class="fancybox"
+                               data-fancybox-group="gall-1">
+                                <img src="img/img-7(1).jpg" alt=""
+                                     class="img img-responsive">
+                            </a>
+                        </div>
+                        <div class="grid ceremony" style="position: absolute; left: 66.5801%; top: 634px;">
+                            <!--  <a href="images/gallery/img-8.jpg" class="fancybox" data-fancybox-group="gall-1">
+                                 <img src="images/gallery/img-8.jpg" alt class="img img-responsive">
+                             </a> -->
+                            <a href="https://www.youtube.com/embed/XSGBVzeBUbk?autoplay=1" data-type="iframe"
+                               class="video-play-btn">
+                                <img src="img/img-8(1).jpg" alt=""
+                                     class="img img-responsive">
+                                <i class="fa fa-play"></i>
+                            </a>
+
+                        </div>
+                        <div class="grid ceremony" style="position: absolute; left: 0%; top: 709px;">
+                            <a href="img/img-9.jpg" class="fancybox"
+                               data-fancybox-group="gall-1">
+                                <img src="img/img-9.jpg" alt=""
+                                     class="img img-responsive">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section>
+    <!-- end gallery-section -->
+
+
+    <!-- start rsvp-section -->
+    <section class="rsvp-section section-padding parallax" data-bg-image="img/img-4.jpg" data-speed="7" id="rsvp"
+             style="background-image: url(img/img-1.jpg); background-position: 50% -1093.54px; background-size: cover;">
+        <div class="container">
+            <div class="row">
+                <div class="col col-xs-12">
+                    <div class="section-title-white">
+                        <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
+                        <h2>Join our party</h2>
+                    </div>
+                </div>
+            </div> <!-- end section-title -->
+
+            <div class="row content">
+                <div class="col col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <p>Please reserve before December 16th, 2017.</p>
+                    <form id="rsvp-form" class="form validate-rsvp-form row" method="post" novalidate="novalidate">
+                        <div class="col col-sm-6">
+                            <input type="text" name="name" class="form-control" placeholder="Your Name*">
+                        </div>
+                        <div class="col col-sm-6">
+                            <input type="email" name="email" class="form-control" placeholder="Your Email*">
+                        </div>
+                        <div class="col col-sm-6">
+                            <select class="form-control" name="guest">
+                                <option disabled="" selected="">Number Of Guest*</option>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                            </select>
+                        </div>
+                        <div class="col col-sm-6">
+                            <select class="form-control" name="events">
+                                <option disabled="" selected="">I Am Attending*</option>
+                                <option>Al events</option>
+                                <option>Wedding ceremony</option>
+                                <option>Reception party</option>
+                            </select>
+                        </div>
+                        <div class="col col-sm-12">
+                            <textarea class="form-control" name="notes" placeholder="Your Message*"></textarea>
+                        </div>
+                        <div class="col col-sm-12 submit-btn">
+                            <button type="submit" class="submit">Send Invitation</button>
+                            <span id="loader"><i class="fa fa-refresh fa-spin fa-3x fa-fw"></i></span>
+                        </div>
+                        <div class="col col-md-12 success-error-message">
+                            <div id="success">Thank you</div>
+                            <div id="error"> Error occurred while sending email. Please try again later.</div>
+                        </div>
+                    </form>
+                </div>
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section>
+    <!-- end rsvp-section -->
+
+
+    <!-- start getting-there-section -->
+    <section class="getting-there-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col col-xs-12">
+                    <div class="section-title-white">
+                        <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
+                        <h2>Getting there</h2>
+                    </div>
+                </div>
+            </div> <!-- end section-title -->
+
+            <div class="row content">
+                <div class="col col-md-6">
+                    <h3>Transportation</h3>
+                    <p> industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                        type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                        also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
+                        in the 1960s</p>
+                </div>
+                <div class="col col-md-6">
+                    <h3>Accommodations</h3>
+                    <p> industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                        type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+                        also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
+                        in the 1960s</p>
+                </div>
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section>
+    <!-- end getting-there-section -->
+
+
+    <!-- start gift-registration-section -->
+    <section class="gift-registration-section section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col col-xs-12">
+                    <div class="section-title">
+                        <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
+                        <h2>Gift registration</h2>
+                    </div>
+                </div>
+            </div> <!-- end section-title -->
+
+            <div class="row content">
+                <div class="col col-lg-10 col-lg-offset-1">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, cupiditate, repudiandae. A ab sit
+                        laboriosam quis distinctio dignissimos, nemo cum sed hic, deleniti maiores rem iste labore
+                        commodi perferendis cumque.repudiandae. A ab sit laboriosam quis distinctio dignissimos, nemo
+                        cum sed hic.</p>
+                </div>
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section>
+    <!-- end gift-registration-section -->
 
 @endsection
