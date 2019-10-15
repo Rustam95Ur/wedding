@@ -6,8 +6,7 @@
     <div class="container">
         <div class="row">
             <div class="col col-xs-12">
-                <h2>Навсегда и всегда наша любовь</h2>
-                <span>- Оркен (Жених)</span>
+                <h2>Наша любовь навсегда</h2>
             </div>
         </div> <!-- end row -->
     </div> <!-- end container -->
