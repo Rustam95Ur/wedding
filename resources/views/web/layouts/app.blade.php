@@ -60,24 +60,7 @@
         </div>
 
         <div class="wedding-announcement">
-            <div class="couple-name-merried-text">
-                <h2 class="wow slideInUp" data-wow-duration="1s">Оркен & Асель</h2>
-                <div class="married-text wow fadeIn" data-wow-delay="1s">
-                    <h4 class="">
-                        <span class="wow fadeInUp" data-wow-delay="1.05s">М</span>
-                        <span class="wow fadeInUp" data-wow-delay="1.10s">Ы</span>
-                        <span> </span>
-                        <span class="wow fadeInUp" data-wow-delay="1.15s">Ж</span>
-                        <span class="wow fadeInUp" data-wow-delay="1.20s">Е</span>
-                        <span class="wow fadeInUp" data-wow-delay="1.25s">Н</span>
-                        <span class="wow fadeInUp" data-wow-delay="1.30s">И</span>
-                        <span class="wow fadeInUp" data-wow-delay="1.35s">М</span>
-                        <span class="wow fadeInUp" data-wow-delay="1.40s">С</span>
-                        <span class="wow fadeInUp" data-wow-delay="1.45s">Я</span>
-                    </h4>
-                </div>
-                <!-- <i class="fa fa-heart"></i> -->
-            </div>
+            
             <div class="save-the-date popup-save-the-date">
                 <h4>Дата</h4>
                 <span class="date">16 ноября начало в 17:00</span>
