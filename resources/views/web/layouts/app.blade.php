@@ -9,6 +9,7 @@
     <title>Оркен & Асель</title>
     <!-- Icon fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
     <link href="{{asset('fonts/fontawesome/css/font-awesome.min.css')}}" rel="stylesheet">
 
     <!-- Bootstrap core CSS -->

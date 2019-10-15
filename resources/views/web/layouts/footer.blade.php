@@ -6,8 +6,8 @@
     <div class="container">
         <div class="row">
             <div class="col col-xs-12">
-                <h2>Forever and Always Our Love</h2>
-                <span>- Mick (The groom)</span>
+                <h2>Навсегда и всегда наша любовь</h2>
+                <span>- Оркен (Жених)</span>
             </div>
         </div> <!-- end row -->
     </div> <!-- end container -->

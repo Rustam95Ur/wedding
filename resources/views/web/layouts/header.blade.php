@@ -16,13 +16,11 @@
             <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
                 <button class="close-navbar"><i class="fa fa-close"></i></button>
                 <ul class="nav navbar-nav">
-                    <li><a href="#home">Home</a></li>
-                    <li class=""><a href="#couple">Couple</a></li>
-                    <li class=""><a href="#story">Story</a></li>
-                    <li class=""><a href="#events">Events</a></li>
-                    <li class=""><a href="#people">People</a></li>
-                    <li class=""><a href="#gallery">Gallery</a></li>
-                    <li class=""><a href="#rsvp">RSVP</a></li>
+                    <li><a href="#home">Главная</a></li>
+                    <li class=""><a href="#story">История</a></li>
+                    <li class=""><a href="#events">Мероприятие</a></li>
+                    <li class=""><a href="#gallery">Галерея</a></li>
+                    <li class=""><a href="#reg">Регистрация</a></li>
                 </ul>
             </div><!-- end of nav-collapse -->
         </div><!-- end of container -->
@@ -42,13 +40,11 @@
             <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
                 <button class="close-navbar"><i class="fa fa-close"></i></button>
                 <ul class="nav navbar-nav">
-                    <li><a href="#home">Home</a></li>
-                    <li class="current-menu-item"><a href="#couple">Couple</a></li>
-                    <li class=""><a href="#story">Story</a></li>
-                    <li class=""><a href="#events">Events</a></li>
-                    <li class=""><a href="#people">People</a></li>
-                    <li class=""><a href="#gallery">Gallery</a></li>
-                    <li class=""><a href="#rsvp">RSVP</a></li>
+                    <li><a href="#home">Главная</a></li>
+                    <li class=""><a href="#story">История</a></li>
+                    <li class=""><a href="#events">Мероприятие</a></li>
+                    <li class=""><a href="#gallery">Галерея</a></li>
+                    <li class=""><a href="#reg">Регистрация</a></li>
                 </ul>
             </div><!-- end of nav-collapse -->
         </div><!-- end of container -->

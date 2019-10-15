@@ -34,23 +34,23 @@
         <div class="container">
             <div class="row">
                 <div class="col col-md-4">
-                    <h2><span>We are waiting for.....</span> The adventure</h2>
+                    <h2><span>Мы ждем.....</span> Приключение</h2>
                 </div>
                 <div class="col col-md-7 col-md-offset-1">
                     <div class="count-down-clock">
                         <div id="clock">
                             <div class="box">
                                 <div>70</div>
-                                <span>Days</span></div>
+                                <span>Дней</span></div>
                             <div class="box">
                                 <div>12</div>
-                                <span>Hours</span></div>
+                                <span>Часов</span></div>
                             <div class="box">
                                 <div>16</div>
-                                <span>Mins</span></div>
+                                <span>Минут</span></div>
                             <div class="box">
                                 <div>31</div>
-                                <span>Secs</span></div>
+                                <span>Секунд</span></div>
                         </div>
                     </div>
                 </div>
@@ -67,7 +67,7 @@
                 <div class="col col-xs-12">
                     <div class="section-title">
                         <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
-                        <h2>Wedding events</h2>
+                        <h2>Свадебные мероприятия</h2>
                     </div>
                 </div>
             </div> <!-- end section-title -->
@@ -106,7 +106,7 @@
         <div class="container">
             <div class="row">
                 <div class="col col-xs-12">
-                    <h2><span>We are going to...</span> Celebrate Our Love</h2>
+                    <h2><span>Мы собираемся...</span> Отпразднуйте нашу любовь</h2>
                 </div>
             </div> <!-- end row -->
         </div> <!-- end container -->
@@ -493,7 +493,7 @@
                 <div class="col col-xs-12">
                     <div class="section-title">
                         <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
-                        <h2>Our gallery</h2>
+                        <h2>Наша Галерея</h2>
                     </div>
                 </div>
             </div> <!-- end section-title -->
@@ -517,58 +517,57 @@
                         </ul>
                     </div>
 
-                    <div class="gallery-container gallery-fancybox masonry-gallery"
-                         style="position: relative; height: 1046.23px;">
-                        <div class="grid wedding" style="position: absolute; left: 0%; top: 0px;">
+                    <div class="gallery-container gallery-fancybox masonry-gallery">
+                        <div class="grid wedding">
                             <a href="img/img-1(5).jpg" class="fancybox"
                                data-fancybox-group="gall-1">
                                 <img src="img/img-1(5).jpg" alt=""
                                      class="img img-responsive">
                             </a>
                         </div>
-                        <div class="grid wedding ceremony" style="position: absolute; left: 33.2468%; top: 0px;">
+                        <div class="grid wedding ceremony">
                             <a href="img/img-2(5).jpg" class="fancybox"
                                data-fancybox-group="gall-1">
                                 <img src="img/img-2(5).jpg" alt=""
                                      class="img img-responsive">
                             </a>
                         </div>
-                        <div class="grid ceremony eudcation" style="position: absolute; left: 66.5801%; top: 0px;">
+                        <div class="grid ceremony eudcation">
                             <a href="img/img-3(3).jpg" class="fancybox"
                                data-fancybox-group="gall-1">
                                 <img src="img/img-3(3).jpg" alt=""
                                      class="img img-responsive">
                             </a>
                         </div>
-                        <div class="grid wedding party" style="position: absolute; left: 0%; top: 261px;">
+                        <div class="grid wedding party">
                             <a href="img/img-4(2).jpg" class="fancybox"
                                data-fancybox-group="gall-1">
                                 <img src="img/img-4(2).jpg" alt=""
                                      class="img img-responsive">
                             </a>
                         </div>
-                        <div class="grid ceremony" style="position: absolute; left: 33.2468%; top: 292px;">
+                        <div class="grid ceremony" >
                             <a href="img/img-5(3).jpg" class="fancybox"
                                data-fancybox-group="gall-1">
                                 <img src="img/img-5(3).jpg" alt=""
                                      class="img img-responsive">
                             </a>
                         </div>
-                        <div class="grid party" style="position: absolute; left: 66.5801%; top: 372px;">
+                        <div class="grid party" >
                             <a href="img/img-6(2).jpg" class="fancybox"
                                data-fancybox-group="gall-1">
                                 <img src="img/img-6(2).jpg" alt=""
                                      class="img img-responsive">
                             </a>
                         </div>
-                        <div class="grid wedding" style="position: absolute; left: 33.2468%; top: 628px;">
+                        <div class="grid wedding">
                             <a href="img/img-7(1).jpg" class="fancybox"
                                data-fancybox-group="gall-1">
                                 <img src="img/img-7(1).jpg" alt=""
                                      class="img img-responsive">
                             </a>
                         </div>
-                        <div class="grid ceremony" style="position: absolute; left: 66.5801%; top: 634px;">
+                        <div class="grid ceremony">
                             <!--  <a href="images/gallery/img-8.jpg" class="fancybox" data-fancybox-group="gall-1">
                                  <img src="images/gallery/img-8.jpg" alt class="img img-responsive">
                              </a> -->
@@ -596,14 +595,14 @@
 
 
     <!-- start rsvp-section -->
-    <section class="rsvp-section section-padding"
+    <section class="rsvp-section section-padding" id="reg"
              style="background-image: url(img/img-1.jpg);  background-size: cover; background-repeat: no-repeat">
         <div class="container">
             <div class="row">
                 <div class="col col-xs-12">
                     <div class="section-title-white">
                         <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
-                        <h2>Join our party</h2>
+                        <h2>Присоединяйтесь к нашей вечеринке</h2>
                     </div>
                 </div>
             </div> <!-- end section-title -->
@@ -632,12 +631,11 @@
                             </select>
                         </div>
                         <div class="col col-sm-12 submit-btn">
-                            <button type="submit" class="submit">Отправь</button>
+                            <button type="submit" class="submit">Отправить</button>
                             <span id="loader"><i class="fa fa-refresh fa-spin fa-3x fa-fw"></i></span>
                         </div>
                         <div class="col col-md-12 success-error-message">
                             <div id="success">Thank you</div>
-                            <div id="error"> Error occurred while sending email. Please try again later.</div>
                         </div>
                     </form>
                 </div>
@@ -654,7 +652,7 @@
                 <div class="col col-xs-12">
                     <div class="section-title-white">
                         <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
-                        <h2>Getting there</h2>
+                        <h2>Попасть туда</h2>
                     </div>
                 </div>
             </div> <!-- end section-title -->
@@ -687,7 +685,7 @@
                 <div class="col col-xs-12">
                     <div class="section-title">
                         <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
-                        <h2>Gift registration</h2>
+                        <h2>Регистрация пожеланий</h2>
                     </div>
                 </div>
             </div> <!-- end section-title -->
