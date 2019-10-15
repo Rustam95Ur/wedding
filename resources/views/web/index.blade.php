@@ -68,7 +68,7 @@
                 <div class="col col-xs-12">
                     <div class="section-title">
                         <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
-                        <h2>Свадебные мероприятия</h2>
+                        <h2>Үйлену той</h2>
                     </div>
                 </div>
             </div> <!-- end section-title -->
@@ -77,22 +77,22 @@
                 <div class="col col-lg-10 col-lg-offset-1">
                     <div class="event">
                         <div class="img-holder">
-                            <img src="img/img-2(2).jpg" alt=""
+                            <img src="https://s7d2.scene7.com/is/image/ritzcarlton/RC_Astana_125455?$XlargeViewport100pct$" alt=""
                                  class="img img-responsive">
                         </div>
                         <div class="details">
-                            <h3>Wedding party</h3>
+                            <h3>Свадьба</h3>
                             <ul>
-                                <li><i class="fa fa-map-marker"></i> 32 big bro road, Chanpai, London.</li>
-                                <li><i class="fa fa-clock-o"></i> Nov 25 2017, 9AM - 5PM</li>
+                                <li><i class="fa fa-map-marker"></i> Dostyk Street 16, Нур-Султан.</li>
+                                <li><i class="fa fa-clock-o"></i> 16 ноября начало в 17:00</li>
                             </ul>
-                            <p>when an unknown printer took a galley of type and scrambled it to make a type specimen
-                                book. It has survived not only five centuries, but also the leap into electronic
-                                typesetting, remaining essentially unchanged. </p>
+                            <p>Приглашаем вас на нашу свадьбу </p>
                             <a class="see-location-btn popup-gmaps"
-                               href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.0160484383277!2d144.99053291585201!3d-37.81309307975254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642ef89a7e023%3A0xb1353055e38c1ab8!2sNew+York+Tomato+Cafe!5e0!3m2!1sbn!2sbd!4v1503743893919">
-                                See location <i class="fa fa-angle-right"></i>
+                               href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2504.0848862940297!2d71.43006911564372!3d51.12534224638651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4245841eb37c0d19%3A0x13c453dce1e537af!2sThe%20Ritz-Carlton%2C%20Astana!5e0!3m2!1sru!2skz!4v1571160291204!5m2!1sru!2skz">
+                                Посмотреть на карте <i class="fa fa-angle-right"></i>
                             </a>
+
+
                         </div>
                     </div>
                 </div>
@@ -107,7 +107,7 @@
         <div class="container">
             <div class="row">
                 <div class="col col-xs-12">
-                    <h2><span>Мы собираемся...</span> Отпразднуйте нашу любовь</h2>
+                    <h2>Оркен & Асель</h2>
                 </div>
             </div> <!-- end row -->
         </div> <!-- end container -->
@@ -222,14 +222,14 @@
                 <div class="col col-xs-12">
                     <div class="section-title-white">
                         <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
-                        <h2>Присоединяйтесь к нашей вечеринке</h2>
+                        <h2>Сізді шын жүректен күтеміз</h2>
                     </div>
                 </div>
             </div> <!-- end section-title -->
 
             <div class="row content">
                 <div class="col col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <p>Пожалуйста, забронируйте до 16 ноября начало в 17:00.</p>
+                    <p>Пожалуйста, ответьте на вопросы.</p>
                     <form action="{{route('reserve-add')}}" class="form validate-rsvp-form row" method="post">
                         @csrf
                         <div class="col col-sm-12">
@@ -263,35 +263,7 @@
 
 
     <!-- start getting-there-section -->
-    <section class="getting-there-section section-padding">
-        <div class="container">
-            <div class="row">
-                <div class="col col-xs-12">
-                    <div class="section-title-white">
-                        <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
-                        <h2>Попасть туда</h2>
-                    </div>
-                </div>
-            </div> <!-- end section-title -->
-
-            <div class="row content">
-                <div class="col col-md-6">
-                    <h3>Transportation</h3>
-                    <p> industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-                        type and scrambled it to make a type specimen book. It has survived not only five centuries, but
-                        also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
-                        in the 1960s</p>
-                </div>
-                <div class="col col-md-6">
-                    <h3>Accommodations</h3>
-                    <p> industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-                        type and scrambled it to make a type specimen book. It has survived not only five centuries, but
-                        also the leap into electronic typesetting, remaining essentially unchanged. It was popularised
-                        in the 1960s</p>
-                </div>
-            </div> <!-- end row -->
-        </div> <!-- end container -->
-    </section>
+ 
     <!-- end getting-there-section -->
 
 
@@ -302,7 +274,7 @@
                 <div class="col col-xs-12">
                     <div class="section-title">
                         <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
-                        <h2>Регистрация пожеланий</h2>
+                        <h2>Оставьте своё пожелание на память</h2>
                     </div>
                 </div>
             </div> <!-- end section-title -->
