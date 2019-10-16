@@ -10,11 +10,11 @@ use Illuminate\Support\Facades\Session;
 use App\Models\ReserveExport;
 use Maatwebsite\Excel\Facades\Excel;
 use Maatwebsite\Excel\Concerns\ToModel;
-<<<<<<< HEAD
-=======
 
 
->>>>>>> images
+
+
+
 
 class ReserveController extends Controller
 {
