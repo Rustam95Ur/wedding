@@ -30,8 +30,8 @@
     </section>
 
     <!-- start count-down-section -->
-    <section class="count-down-section section-padding parallax" data-bg-image="img/img-9.jpg" data-speed="7"
-             style="background-image: url(img/img-9.jpg); background-position: 50% -164.571px; background-size: cover;">
+    <section class="count-down-section section-padding parallax" data-bg-image="img/Basher.ph-02769.JPG" data-speed="7"
+             style="background-image: url(img/Basher.ph-02769.JPG); background-position: 50% -164.571px; background-size: cover;">
         <div class="container">
             <div class="row">
                 <div class="col col-md-4">
@@ -103,8 +103,8 @@
     <!-- end story-section -->
 
     <!-- start cta -->
-    <section class="cta section-padding parallax" data-bg-image="img/img-2.jpg" data-speed="7"
-             style="background-image: url(img/img-1.jpg); background-position: 50% -477.616px; background-size: cover;">
+    <section class="cta section-padding parallax" data-bg-image="img/Basher.ph-02821.JPG" data-speed="7"
+             style="background-image: url(img/Basher.ph-02821.JPG); background-position: 50% -477.616px; background-size: cover;">
         <div class="container">
             <div class="row">
                 <div class="col col-xs-12">
@@ -217,7 +217,7 @@
 
     <!-- start rsvp-section -->
     <section class="rsvp-section section-padding" id="reg"
-             style="background-image: url(img/img-1.jpg);  background-size: cover; background-repeat: no-repeat">
+             style="background-image: url(img/Basher.ph-03635.JPG);  background-size: cover; background-repeat: no-repeat">
         <div class="container">
             <div class="row">
                 <div class="col col-xs-12">
@@ -311,6 +311,104 @@
             </button>
         @endif
     </section>
+    <section class="gallery-section section-padding" id="gallery">
+        <div class="container">
+            <div class="row">
+                <div class="col col-xs-12">
+                    <div class="section-title">
+                        <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
+                        <h2>Instagram</h2>
+                    </div>
+                </div>
+            </div> <!-- end section-title -->
+
+            <div class="row">
+                <div class="col col-xs-12 sortable-gallery">
+                    <div class="gallery-container gallery-fancybox masonry-gallery">
+                        
+                            <div class="grid wedding">
+                                <a href="img/img-1(5).jpg" class="fancybox"
+                                   data-fancybox-group="gall-1">
+                                    <img src="img/img-1(5).jpg" alt=""
+                                         class="img img-responsive">
+                                </a>
+                                <span class="hashtag" style="margin: 0 auto;">#Orken&Asel</span>
+                            </div>
+                        
+
+                        {{--                        <div class="grid wedding">--}}
+                        {{--                            <a href="img/img-1(5).jpg" class="fancybox"--}}
+                        {{--                               data-fancybox-group="gall-1">--}}
+                        {{--                                <img src="img/img-1(5).jpg" alt=""--}}
+                        {{--                                     class="img img-responsive">--}}
+                        {{--                            </a>--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="grid wedding ceremony">--}}
+                        {{--                            <a href="img/img-2(5).jpg" class="fancybox"--}}
+                        {{--                               data-fancybox-group="gall-1">--}}
+                        {{--                                <img src="img/img-2(5).jpg" alt=""--}}
+                        {{--                                     class="img img-responsive">--}}
+                        {{--                            </a>--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="grid ceremony eudcation">--}}
+                        {{--                            <a href="img/img-3(3).jpg" class="fancybox"--}}
+                        {{--                               data-fancybox-group="gall-1">--}}
+                        {{--                                <img src="img/img-3(3).jpg" alt=""--}}
+                        {{--                                     class="img img-responsive">--}}
+                        {{--                            </a>--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="grid wedding party">--}}
+                        {{--                            <a href="img/img-4(2).jpg" class="fancybox"--}}
+                        {{--                               data-fancybox-group="gall-1">--}}
+                        {{--                                <img src="img/img-4(2).jpg" alt=""--}}
+                        {{--                                     class="img img-responsive">--}}
+                        {{--                            </a>--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="grid ceremony">--}}
+                        {{--                            <a href="img/img-5(3).jpg" class="fancybox"--}}
+                        {{--                               data-fancybox-group="gall-1">--}}
+                        {{--                                <img src="img/img-5(3).jpg" alt=""--}}
+                        {{--                                     class="img img-responsive">--}}
+                        {{--                            </a>--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="grid party">--}}
+                        {{--                            <a href="img/img-6(2).jpg" class="fancybox"--}}
+                        {{--                               data-fancybox-group="gall-1">--}}
+                        {{--                                <img src="img/img-6(2).jpg" alt=""--}}
+                        {{--                                     class="img img-responsive">--}}
+                        {{--                            </a>--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="grid wedding">--}}
+                        {{--                            <a href="img/img-7(1).jpg" class="fancybox"--}}
+                        {{--                               data-fancybox-group="gall-1">--}}
+                        {{--                                <img src="img/img-7(1).jpg" alt=""--}}
+                        {{--                                     class="img img-responsive">--}}
+                        {{--                            </a>--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="grid ceremony">--}}
+                        {{--                            <!--  <a href="images/gallery/img-8.jpg" class="fancybox" data-fancybox-group="gall-1">--}}
+                        {{--                                 <img src="images/gallery/img-8.jpg" alt class="img img-responsive">--}}
+                        {{--                             </a> -->--}}
+                        {{--                            <a href="img/img-7(1).jpg" class="fancybox"--}}
+                        {{--                               data-fancybox-group="gall-1">--}}
+                        {{--                                <img src="img/img-7(1).jpg" alt=""--}}
+                        {{--                                     class="img img-responsive">--}}
+                        {{--                            </a>--}}
+                        {{--                        </div>--}}
+                        {{--                        <div class="grid ceremony" style="position: absolute; left: 0%; top: 709px;">--}}
+                        {{--                            <a href="img/img-9.jpg" class="fancybox"--}}
+                        {{--                               data-fancybox-group="gall-1">--}}
+                        {{--                                <img src="img/img-9.jpg" alt=""--}}
+                        {{--                                     class="img img-responsive">--}}
+                        {{--                            </a>--}}
+                        {{--                        </div>--}}
+                    </div>
+                </div>
+            </div> <!-- end row -->
+        </div> <!-- end container -->
+    </section>
+    <!-- end gallery-section -->
+
 
     <!-- end gift-registration-section -->
     <script>
