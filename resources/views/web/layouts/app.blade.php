@@ -47,18 +47,10 @@
     <!-- start of hero -->
     <section class="hero">
         <div class="static-hero"></div>
-        <div id="video-background" class="video-player mb_YTPlayer isMuted"
-             data-property="{videoURL:'https://youtu.be/pW-zMTnH2pU',containment:'.video-player',autoPlay:true, mute:false, startAt:0, opacity:1}">
-            <div class="mbYTP_wrapper" id="wrapper_video-background">
-                <iframe id="iframe_video-background" class="playerBox"
-                        frameborder="0" allowfullscreen="1"
-                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        title="YouTube video player"
-                        unselectable="on"></iframe>
-                <div class="YTPOverlay"></div>
-            </div>
-        </div>
-
+        <img src="{{asset('img/Basher.ph-02865.JPG')}}">
+        <audio autoplay="autoplay">
+            <source src="audio/music.mp3" type="audio/mpeg">
+        </audio>
         <div class="wedding-announcement">
 
             <div class="save-the-date popup-save-the-date">
