@@ -60,7 +60,7 @@
         </div>
 
         <div class="wedding-announcement">
-            
+
             <div class="save-the-date popup-save-the-date">
                 <h4>Дата</h4>
                 <span class="date">16 ноября начало в 17:00</span>
@@ -102,7 +102,16 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-body">
-                <h3 class="text-center text-success">{!! $message !!}</h3>
+                @if ($message = Session::get('success'))
+                    <h3 class="text-center text-success">{!! $message !!}</h3>
+                @endif
+                @if ($errors->any())
+                    <ul class="questions">
+                        @foreach($errors->all() as $error)
+                            <li><h3 class="text-danger text-center">{!! $error !!}</h3></li>
+                        @endforeach
+                    </ul>
+                @endif
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
@@ -122,14 +131,14 @@
             <form action="{{route('comment-add')}}" method="post">
                 @csrf
                 <div class="modal-body">
-                        <div class="form-group">
-                            <input type="text" class="form-control"  name="name"
-                                   placeholder="Ваше имя">
-                        </div>
-                        <div class="form-group">
-                        <textarea class="form-control"  name="text" rows="3"
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="name"
+                               placeholder="Ваше имя">
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="text" rows="3"
                                   placeholder="Ваше пожелание"></textarea>
-                        </div>
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <input type="submit" class="modal-submit-btn" value="Отправить">
@@ -138,5 +147,16 @@
         </div>
     </div>
 </div>
-<!----></body>
+<script>
+    $('select[name=agreement]').change(function () {
+        var status = $(this).val();
+        if(status == 0) {
+            $('select[name="count_people"]').attr('disabled', 'disabled');
+        }
+        else if (status == 1) {
+            $('select[name="count_people"]').prop('disabled', false);
+        }
+    });
+</script>
+</body>
 </html>

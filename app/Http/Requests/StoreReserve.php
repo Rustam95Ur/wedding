@@ -28,4 +28,15 @@ class StoreReserve extends FormRequest
             'agreement' => 'required',
         ];
     }
+
+    /**
+     * @return array
+     */
+    public function messages()
+    {
+        return [
+            'full_name.required' => 'Поле ФИО обязательное',
+            'agreement.required' => 'Вы не выбрали поле "Вы придёте ?"',
+        ];
+    }
 }

@@ -17,7 +17,7 @@ class CreateReservesTable extends Migration
             $table->bigIncrements('id');
             $table->string('full_name');
             $table->integer('agreement');
-            $table->string('count_people');
+            $table->string('count_people')->nullable();
             $table->timestamps();
         });
     }
