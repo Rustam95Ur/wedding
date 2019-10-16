@@ -47,7 +47,7 @@
     <!-- start of hero -->
     <section class="hero">
         <div class="static-hero"></div>
-        <img src="{{asset('img/Basher.ph-02865.JPG')}}">
+        <img src="{{asset('img/Basher.ph-03172.JPG')}}" style="width: 100%">
         <audio autoplay="autoplay">
             <source src="audio/music.mp3" type="audio/mpeg">
         </audio>
