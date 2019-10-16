@@ -53,7 +53,7 @@
                 <iframe id="iframe_video-background" class="playerBox"
                         frameborder="0" allowfullscreen="1"
                         allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                        title="YouTube video player" width="640" height="360"
+                        title="YouTube video player"
                         unselectable="on"></iframe>
                 <div class="YTPOverlay"></div>
             </div>
@@ -158,5 +158,6 @@
         }
     });
 </script>
+
 </body>
 </html>
