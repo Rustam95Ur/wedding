@@ -9,7 +9,7 @@
                 <div class="col col-xs-12">
                     <div class="section-title">
                         <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
-                        <h2>love store video</h2>
+                        <h2>love story video</h2>
                     </div>
                 </div>
             </div> <!-- end section-title -->
@@ -17,7 +17,7 @@
             <div class="row content">
                 <div class="col col-lg-8 col-lg-offset-2">
                     <div class="img-holder video-holder">
-                        <img src="img/img-8.jpg" alt=""
+                        <img src="img/Basher.ph-02865.JPG" alt=""
                              class="img img-responsive">
                         <a href="https://www.youtube.com/embed/5pzXdJJ4Djk?autoplay=1" data-type="iframe"
                            class="video-play-btn">
@@ -258,14 +258,16 @@
             <div class="row">
                 <div class="col col-xs-12 sortable-gallery">
                     <div class="gallery-container gallery-fancybox masonry-gallery">
-
                             <div class="grid wedding">
-                                <a href="img/img-1(5).jpg" class="fancybox"
+                                <a href="img/Basher.ph-02865.JPG" class="fancybox"
                                    data-fancybox-group="gall-1">
-                                    <img src="img/img-1(5).jpg" alt=""
+                                    <img src="img/Basher.ph-02865.JPG" alt=""
                                          class="img img-responsive">
                                 </a>
-                                <span class="hashtag" style="margin: 0 auto;">#Orken&Asel</span>
+                                <div>
+                                   <p align="center">#Orken&Asel</p> 
+                                </div>
+                                
                             </div>
                     </div>
                 </div>
