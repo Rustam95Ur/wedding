@@ -31,7 +31,7 @@
 
     <!-- start count-down-section -->
     <section class="count-down-section section-padding parallax" data-bg-image="img/Basher.ph-02769.JPG" data-speed="7"
-             style="background-image: url(img/Basher.ph-02769.JPG); background-position: 50% -164.571px; background-size: cover;">
+             style="background-image: url(img/Basher.ph-02769.JPG); background-position: 40%; background-size: cover;">
         <div class="container">
             <div class="row">
                 <div class="col col-md-4">
@@ -103,8 +103,8 @@
     <!-- end story-section -->
 
     <!-- start cta -->
-    <section class="cta section-padding parallax" data-bg-image="img/Basher.ph-02821.JPG" data-speed="7"
-             style="background-image: url(img/Basher.ph-02821.JPG); background-position: 50% -477.616px; background-size: cover;">
+    <section class="cta section-padding " data-bg-image="img/Basher.ph-02821.JPG" data-speed="7"
+             style="background-image: url(img/Basher.ph-02888.JPG); background-position: 50%; background-size: cover;">
         <div class="container">
             <div class="row">
                 <div class="col col-xs-12">
@@ -258,7 +258,7 @@
             <div class="row">
                 <div class="col col-xs-12 sortable-gallery">
                     <div class="gallery-container gallery-fancybox masonry-gallery">
-                        
+
                             <div class="grid wedding">
                                 <a href="img/img-1(5).jpg" class="fancybox"
                                    data-fancybox-group="gall-1">
@@ -267,7 +267,7 @@
                                 </a>
                                 <span class="hashtag" style="margin: 0 auto;">#Orken&Asel</span>
                             </div>
-                        
+
 
                         {{--                        <div class="grid wedding">--}}
                         {{--                            <a href="img/img-1(5).jpg" class="fancybox"--}}
