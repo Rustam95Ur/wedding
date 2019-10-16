@@ -7,6 +7,7 @@
         <div class="row">
             <div class="col col-xs-12">
                 <h2>Наша любовь навсегда</h2>
+                <h2>Любовь Навсегда</h2>
             </div>
         </div> <!-- end row -->
     </div> <!-- end container -->
