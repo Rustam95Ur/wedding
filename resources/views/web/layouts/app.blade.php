@@ -17,14 +17,13 @@
 
     <!-- Plugins for this template -->
     <link href="{{asset('css/animate.css')}}" rel="stylesheet">
-    <link href="{{asset('css/owl.carousel.css')}}" rel="stylesheet">
-    <link href="{{asset('css/owl.theme.css')}}" rel="stylesheet">
     <link href="{{asset('css/slick.css')}}" rel="stylesheet">
     <link href="{{asset('css/slick-theme.css')}}" rel="stylesheet">
-    <link href="{{asset('css/owl.transitions.css')}}" rel="stylesheet">
     <link href="{{asset('css/jquery.fancybox.css')}}" rel="stylesheet">
     <link href="{{asset('css/magnific-popup.css')}}" rel="stylesheet">
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -160,6 +159,20 @@
         }
     });
 </script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script>
+    $(function() {
+        // Owl Carousel
+        var owl = $(".owl-carousel");
+        owl.owlCarousel({
+            items: 3,
+            autoplay: true,
+            margin: 10,
+            loop: true,
+            nav: true,
+        });
+    });
+</script>
 </body>
 </html>

@@ -102,20 +102,6 @@
     </section>
     <!-- end story-section -->
 
-    <!-- start cta -->
-    <section class="cta section-padding " data-bg-image="img/Basher.ph-02821.JPG" data-speed="7"
-             style="background-image: url(img/Basher.ph-02888.JPG); background-position: 50%; background-size: cover;">
-        <div class="container">
-            <div class="row">
-                <div class="col col-xs-12">
-                    <h2>Оркен & Асель</h2>
-                </div>
-            </div> <!-- end row -->
-        </div> <!-- end container -->
-    </section>
-    <!-- end cta -->
-
-
     <!-- start gallery-section -->
     <section class="gallery-section section-padding" id="gallery">
         <div class="container">
@@ -127,12 +113,11 @@
                     </div>
                 </div>
             </div> <!-- end section-title -->
-
             <div class="row">
-                <div class="col col-xs-12 sortable-gallery">
-                    <div class="gallery-container gallery-fancybox masonry-gallery">
+                <div class="col col-xs-12 sortable-gallery ">
+                    <div class="owl-carousel owl-loaded owl-theme">
                         @foreach($images as $image)
-                            <div class="grid wedding">
+                            <div class="grid wedding ">
                                 <a href="{{'/storage/'.$image->image}}" class="fancybox"
                                    data-fancybox-group="gall-1">
                                     <img src="{{'/storage/'.$image->image}}" alt=""
