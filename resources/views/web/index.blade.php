@@ -189,12 +189,6 @@
     </section>
     <!-- end rsvp-section -->
 
-
-    <!-- start getting-there-section -->
-
-    <!-- end getting-there-section -->
-
-
     <!-- start gift-registration-section -->
     <section class="gift-registration-section section-padding">
         <div class="container">
@@ -229,7 +223,7 @@
             </button>
         @endif
     </section>
-    <section class="gallery-section section-padding" id="gallery">
+    <section class="gallery-section " style="padding-bottom: 50px">
         <div class="container">
             <div class="row">
                 <div class="col col-xs-12">
@@ -242,8 +236,8 @@
                 </div>
             </div> <!-- end section-title -->
             <div class="row">
-                <div class="col col-xs-12 sortable-gallery">
-                    <div class="gallery-container gallery-fancybox masonry-gallery">
+                <div class="col col-xs-12 sortable-gallery ">
+                    <div class="owl-carousel owl-loaded owl-theme">
                         @foreach($instagramImages as $image)
                             <div class="grid wedding">
                                 <a href="{{$image}}" class="fancybox"
@@ -251,9 +245,6 @@
                                     <img src="{{$image}}" alt=""
                                          class="img img-responsive">
                                 </a>
-                                <div>
-
-                                </div>
                             </div>
                         @endforeach
                     </div>
