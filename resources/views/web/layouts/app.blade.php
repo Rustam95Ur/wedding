@@ -36,7 +36,6 @@
 
 <!-- start page-wrapper -->
 <div class="page-wrapper">
-    <audio src="audio/music.mp3" id="myAudio"></audio>
 
     <!-- start preloader -->
     <div class="preloader" style="display: none;">
@@ -48,6 +47,17 @@
     <!-- start of hero -->
     <section class="hero">
         <div class="static-hero"></div>
+        <div id="video-background" class="video-player mb_YTPlayer"
+             data-property="{videoURL:'https://youtu.be/pW-zMTnH2pU',containment:'.video-player',autoPlay:true, mute:false, startAt:0, opacity:0}">
+            <div class="mbYTP_wrapper" id="wrapper_video-background">
+                <iframe id="iframe_video-background" class="playerBox"
+                        frameborder="0" allowfullscreen="1"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        title="YouTube video player"
+                        unselectable="on"></iframe>
+                <div class="YTPOverlay"></div>
+            </div>
+        </div>
         <img src="{{asset('img/Basher.ph-03172.JPG')}}" style="width: 100%">
         <div class="wedding-announcement">
 
