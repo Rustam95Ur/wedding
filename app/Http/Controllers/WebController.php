@@ -11,7 +11,7 @@ class WebController extends Controller
 
     public function index()
     {
-        $tags = ['Оркен❤Асел', 'Orken❤Asel'];
+        $tags = ['оркен❤️асель', 'orken❤️asel'];
         $newImages = [];
         foreach ($tags as $tag) {
             $instagram = InstagramApi::getImages($tag);
