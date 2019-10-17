@@ -192,7 +192,7 @@
                         </form>
                     </div>
                 </div> <!-- end row -->
-                @else
+            @else
                 <div class="col col-xs-12">
                     <div class="section-title-white">
                         <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
@@ -251,24 +251,26 @@
                     <div class="section-title">
                         <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
                         <h2>Instagram</h2>
+                        <p align="center " style="margin-top: 10px">#Оркен❤Асел<br>#Orken❤Asel</p>
+
                     </div>
                 </div>
             </div> <!-- end section-title -->
-
             <div class="row">
                 <div class="col col-xs-12 sortable-gallery">
                     <div class="gallery-container gallery-fancybox masonry-gallery">
+                        @foreach($instagramImages as $image)
                             <div class="grid wedding">
-                                <a href="img/Basher.ph-02865.JPG" class="fancybox"
+                                <a href="{{$image}}" class="fancybox"
                                    data-fancybox-group="gall-1">
-                                    <img src="img/Basher.ph-02865.JPG" alt=""
+                                    <img src="{{$image}}" alt=""
                                          class="img img-responsive">
                                 </a>
                                 <div>
-                                   <p align="center">#Orken&Asel</p> 
+
                                 </div>
-                                
                             </div>
+                        @endforeach
                     </div>
                 </div>
             </div> <!-- end row -->

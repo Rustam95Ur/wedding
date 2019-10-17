@@ -66,26 +66,15 @@ class InstagramApi
     /**
      * @return APIResponse
      */
-    public static function getImages(): APIResponse
+    public static function getImages($tags): APIResponse
     {
-        $client_id = env('INSTAGRAM_SECRET_ID');
-        $access_token = env('INSTAGRAM_SECRET_TOKEN');
-        $tag = 'web';
         $res = new APIResponse;
         try {
-            $response = InstagramApi::Get('tags/'.$tag.'/media/recent', [
-                'query' => [
-                    'access_token' =>$access_token ,
-                ],
-                ]);
+            $response = InstagramApi::Get($tags.'/?__a=1');
             $res->SetPayloadJSON($response->getBody()->getContents());
         } catch (\Exception $exception) {
             $res->SetErrorReason($exception->getMessage());
         }
-        echo '<pre>';
-        var_dump($res);
-        echo '</pre>';
-        die();
         return $res;
     }
 
