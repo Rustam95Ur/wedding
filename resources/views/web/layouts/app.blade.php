@@ -36,6 +36,7 @@
 
 <!-- start page-wrapper -->
 <div class="page-wrapper">
+    <audio src="audio/music.mp3" autoplay="autoplay"></audio>
 
     <!-- start preloader -->
     <div class="preloader" style="display: none;">
@@ -48,9 +49,6 @@
     <section class="hero">
         <div class="static-hero"></div>
         <img src="{{asset('img/Basher.ph-03172.JPG')}}" style="width: 100%">
-        <audio autoplay="autoplay">
-            <source src="audio/music.mp3" type="audio/mpeg">
-        </audio>
         <div class="wedding-announcement">
 
             <div class="save-the-date popup-save-the-date">
