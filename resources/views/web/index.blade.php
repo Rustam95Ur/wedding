@@ -15,7 +15,17 @@
             </div> <!-- end section-title -->
 
             <div class="row content">
-                <div class="col col-lg-8 col-lg-offset-2">
+                <div class="col col-lg-6">
+                    <div class="img-holder video-holder">
+                        <img src="img/Basher.ph-02769.JPG" alt=""
+                             class="img img-responsive">
+                        <a href="https://www.youtube.com/embed/pW-zMTnH2pU?autoplay=1" data-type="iframe"
+                           class="video-play-btn">
+                            <i class="fa fa-play"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col col-lg-6">
                     <div class="img-holder video-holder">
                         <img src="img/Basher.ph-02865.JPG" alt=""
                              class="img img-responsive">
