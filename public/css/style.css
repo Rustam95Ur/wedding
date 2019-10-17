@@ -1486,12 +1486,12 @@ a:focus {
 }
 
 .header-style-1 .navigation:after, .header-style-2 .navigation:after {
-  content: "";
-  width: 100%;
-  height: 1px;
-  background: #ececec;
-  position: absolute;
-  bottom: 2px;
+  /*content: "";*/
+  /*width: 100%;*/
+  /*height: 1px;*/
+  /*background: #ececec;*/
+  /*position: absolute;*/
+  /*bottom: 2px;*/
 }
 
 @media (max-width: 991px) {

@@ -36,7 +36,7 @@
 
 <!-- start page-wrapper -->
 <div class="page-wrapper">
-    <audio src="audio/music.mp3" autoplay="autoplay"></audio>
+    <audio src="audio/music.mp3" id="myAudio"></audio>
 
     <!-- start preloader -->
     <div class="preloader" style="display: none;">
@@ -76,7 +76,9 @@
 
 <!-- Custom script for this template -->
 <script src="{{asset('js/script.js')}}"></script>
-
+<script>
+    document.getElementById('myAudio').play();
+</script>
 @if ($message = Session::get('success') or $message = Session::get('error') or $message = Session::get('warning') or $message = Session::get('info') or $errors->any())
     <script>
         $(function () {
