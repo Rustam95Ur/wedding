@@ -115,7 +115,7 @@
             </div> <!-- end section-title -->
             <div class="row">
                 <div class="col col-xs-12 sortable-gallery ">
-                    <div class="owl-carousel owl-loaded owl-theme">
+                    <div class="owl-carousel owl-loaded owl-theme gallery-container gallery-fancybox">
                         @foreach($images as $image)
                             <div class="grid wedding ">
                                 <a href="{{'/storage/'.$image->image}}" class="fancybox"
@@ -237,7 +237,7 @@
             </div> <!-- end section-title -->
             <div class="row">
                 <div class="col col-xs-12 sortable-gallery ">
-                    <div class="owl-carousel owl-loaded owl-theme">
+                    <div class="owl-carousel owl-loaded owl-theme gallery-container gallery-fancybox">
                         @foreach($instagramImages as $image)
                             <div class="grid wedding">
                                 <a href="{{$image}}" class="fancybox"

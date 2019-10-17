@@ -166,7 +166,7 @@
         // Owl Carousel
         var owl = $(".owl-carousel");
         owl.owlCarousel({
-            items: 3,
+            items: 1,
             autoplay: true,
             autoplayTimeout:5000,
             margin: 10,
