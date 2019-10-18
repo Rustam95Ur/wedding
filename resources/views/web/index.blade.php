@@ -81,6 +81,18 @@
     </section>
     <!-- end count-down-section -->
 
+    <section class="story-section section-padding" id="story">
+        <div class="container">
+            <div class="row">
+                <div class="col col-xs-12">
+                    <div class="section-title">
+                        <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
+                        <h2>Рассадка столов</h2>
+                    </div>
+                </div>
+            </div> <!-- end section-title -->
+        </div> <!-- end container -->
+    </section>
 
     <!-- start story-section -->
     <section class="events-section section-padding" id="events">
