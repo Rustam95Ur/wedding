@@ -16,6 +16,7 @@
 
             <div class="row content">
                 <div class="col col-lg-6">
+                    <h2 style="text-align: center">Видео приглашение</h2>
                     <div class="img-holder video-holder">
                         <img src="img/Basher.ph-02769.JPG" alt=""
                              class="img img-responsive">
@@ -26,6 +27,7 @@
                     </div>
                 </div>
                 <div class="col col-lg-6">
+                    <h2 style="text-align: center">Love story видео</h2>
                     <div class="img-holder video-holder">
                         <img src="img/Basher.ph-02865.JPG" alt=""
                              class="img img-responsive">

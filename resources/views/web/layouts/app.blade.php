@@ -61,7 +61,7 @@
         <div class="wedding-announcement">
 
             <div class="save-the-date popup-save-the-date">
-                <h4>Дата</h4>
+                <h4 style="font-family: 'Times New Roman', Times, serif;">Дата</h4>
                 <span class="date">16 ноября начало в 17:00</span>
             </div>
         </div>
