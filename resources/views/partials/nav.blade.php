@@ -22,9 +22,9 @@
                             <a class="dropdown-item" href="{{ route('images', 1) }}">
                                 Фото отчет
                             </a>
-{{--                            <a class="dropdown-item" href="{{ route('video-report') }}">--}}
-{{--                                Видео отчет--}}
-{{--                            </a>--}}
+                            <a class="dropdown-item" href="{{ route('videos') }}">
+                                Видео отчет
+                            </a>
                             <a class="dropdown-item" href="{{ route('images', 3) }}">
                                 Рассадка гостей
                             </a>

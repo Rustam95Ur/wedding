@@ -58,12 +58,19 @@ Route::group(['middleware' => ['auth', 'activated', 'activity', 'twostep', 'chec
     Route::get('/home/images/type/{type}', 'ImageController@index')->name('images');
     Route::get('/home/image/add/{type}', 'ImageController@create')->name('image-add');
     Route::post('/home/image/save', 'ImageController@store')->name('image-save');
-
-    Route::get('/home/image/edit/{id}', 'ImageController@edit')->name('image-edit');
     Route::get('/home/image/edit/{id}', 'ImageController@edit')->name('image-edit');
     Route::put('/home/image/update/{id}', 'ImageController@update')->name('image-update');
     Route::delete('/home/image/delete/{id}', 'ImageController@destroy')->name('image-delete');
     Route::get('/home/export/', 'ReserveController@export')->name('export');
+
+
+    Route::get('/home/videos/', 'VideoController@index')->name('videos');
+    Route::get('/home/video/add/', 'VideoController@create')->name('video-add');
+    Route::post('/home/video/save', 'VideoController@store')->name('video-save');
+    Route::get('/home/video/edit/{id}', 'VideoController@edit')->name('video-edit');
+    Route::put('/home/video/update/{id}', 'VideoController@update')->name('video-update');
+    Route::delete('/home/video/delete/{id}', 'VideoController@destroy')->name('video-delete');
+
 
     // Show users profile - viewable by other users.
     Route::get('profile/{username}', [
