@@ -2,7 +2,28 @@
 @section('content')
     <!-- start wedding-couple-section -->
 
-
+    <section class="story-section section-padding" id="story">
+        <div class="container">
+            <div class="row">
+                <div class="col col-xs-12">
+                    <div class="section-title">
+                        <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
+                        <h2>Видео приглашение</h2>
+                    </div>
+                </div>
+            </div> <!-- end section-title -->
+            <div class="col col-lg-8 col-lg-offset-2">
+                <div class="img-holder video-holder">
+                    <img src="img/Basher.ph-02769.JPG" alt=""
+                         class="img img-responsive">
+                    <a href="https://www.youtube.com/embed/pW-zMTnH2pU?autoplay=1" data-type="iframe"
+                       class="video-play-btn">
+                        <i class="fa fa-play"></i>
+                    </a>
+                </div>
+            </div>
+        </div> <!-- end container -->
+    </section>
     <section class="story-section section-padding" id="story">
         <div class="container">
             <div class="row">
@@ -15,19 +36,7 @@
             </div> <!-- end section-title -->
 
             <div class="row content">
-                <div class="col col-lg-6">
-                    <h2 style="text-align: center">Видео приглашение</h2>
-                    <div class="img-holder video-holder">
-                        <img src="img/Basher.ph-02769.JPG" alt=""
-                             class="img img-responsive">
-                        <a href="https://www.youtube.com/embed/pW-zMTnH2pU?autoplay=1" data-type="iframe"
-                           class="video-play-btn">
-                            <i class="fa fa-play"></i>
-                        </a>
-                    </div>
-                </div>
-                <div class="col col-lg-6">
-                    <h2 style="text-align: center">Love story видео</h2>
+                <div class="col col-lg-8 col-lg-offset-2">
                     <div class="img-holder video-holder">
                         <img src="img/Basher.ph-02865.JPG" alt=""
                              class="img img-responsive">
