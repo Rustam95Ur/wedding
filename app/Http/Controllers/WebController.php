@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Api\InstagramApi;
 use App\Models\Comment;
 use App\Models\Image;
+use App\Models\Video;
 
 class WebController extends Controller
 {
@@ -27,13 +28,15 @@ class WebController extends Controller
             }
         }
         $comments = Comment::orderBy('created_at', 'DESC')->get();
-        $galleryImages = Image::where('type', '=', 2)->orderBy('created_at', 'DESC')->limit(30)->get();
-        $reportImages = Image::where('type', '=', 1)->orderBy('created_at', 'DESC')->limit(30)->get();
-        $reservImages = Image::where('type', '=', 3)->orderBy('created_at', 'DESC')->get();
+        $galleryImages = Image::where('type', '=', Image::TYPE_GALLERY)->orderBy('created_at', 'DESC')->limit(30)->get();
+        $reportImages = Image::where('type', '=', Image::TYPE_REPORT)->orderBy('created_at', 'DESC')->limit(30)->get();
+        $reservImages = Image::where('type', '=', Image::TYPE_RESERVE)->orderBy('created_at', 'DESC')->get();
+        $videos = Video::orderBy('created_at', 'DESC')->limit(10)->get();
         return view('web.index', [
             'galleryImages' => $galleryImages,
             'reportImages' => $reportImages,
             'reservImages' => $reservImages,
+            'videos' => $videos,
             'comments' => $comments,
             'instagramImages' => $newImages,
         ]);

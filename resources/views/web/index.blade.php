@@ -296,6 +296,7 @@
             </div> <!-- end row -->
         </div> <!-- end container -->
     </section>
+
     <section class="story-section section-padding" id="story">
         <div class="container">
             <div class="row">
@@ -317,8 +318,35 @@
                     </div>
                 </div>
             </div> <!-- end section-title -->
+
         </div> <!-- end container -->
     </section>
+    @if(count($videos) != 0)
+    <section class="gallery-section ">
+        <div class="container">
+            <div class="row">
+                <div class="col col-xs-12">
+                    <div class="section-title">
+                        <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
+                        <h2>Видео отчет</h2>
+                    </div>
+                </div>
+                <div class="col col-xs-12 sortable-gallery">
+                    <div class="gallery-container gallery-fancybox masonry-gallery">
+                        @foreach($videos as $video)
+                            <div class="grid ceremony">
+                                <a href="{{str_replace('watch?v=','embed/',$video->link)}}?autoplay=1" data-type="iframe" class="video-play-btn">
+                                    <img src="{{'/storage/'.$video->image}}" alt="" class="img img-responsive">
+                                    <i class="fa fa-play"></i>
+                                </a>
+                            </div>
+                        @endforeach
+                    </div>
+                </div>
+            </div> <!-- end section-title -->
+        </div> <!-- end container -->
+    </section>
+    @endif
     <!-- end gallery-section -->
 
 
