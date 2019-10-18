@@ -27,9 +27,13 @@ class WebController extends Controller
             }
         }
         $comments = Comment::orderBy('created_at', 'DESC')->get();
-        $images = Image::orderBy('created_at', 'DESC')->limit(30)->get();
+        $galleryImages = Image::where('type', '=', 2)->orderBy('created_at', 'DESC')->limit(30)->get();
+        $reportImages = Image::where('type', '=', 1)->orderBy('created_at', 'DESC')->limit(30)->get();
+        $reservImages = Image::where('type', '=', 3)->orderBy('created_at', 'DESC')->get();
         return view('web.index', [
-            'images' => $images,
+            'galleryImages' => $galleryImages,
+            'reportImages' => $reportImages,
+            'reservImages' => $reservImages,
             'comments' => $comments,
             'instagramImages' => $newImages,
         ]);

@@ -13,6 +13,7 @@
                         <img src="{{'/storage/'.$image->image}}"
                              style="max-width:200px; height:auto; clear:both; display:block; padding:2px; border:1px solid #ddd; margin-bottom:10px;">
                         <input type="file" class="form-control" name="image" >
+                        <input type="hidden" name="type" value="{{$image->type}}">
                     </div>
 
                     <input type="submit" class="btn btn-success" value="Сохранить">

@@ -23,20 +23,23 @@ class ImageController extends Controller
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function index()
+    public function index($type)
     {
-        $images = Image::paginate(10);
+        $images = Image::where('type', '=', $type)->paginate(10);
         return view('image.index', [
             'images' => $images,
+            'type' => $type,
         ]);
     }
 
     /**
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function create()
+    public function create($id)
     {
-        return view('image.create');
+        return view('image.create', [
+            'id' => $id,
+        ]);
     }
 
     /**
@@ -52,6 +55,7 @@ class ImageController extends Controller
         $filePath = $folder . $name. '.' . $image->getClientOriginalExtension();
         $this->uploadOne($image, $folder, 'public', $name);
         $images->image = $filePath;
+        $images->type = $request['type'];
         $images->save();
         return redirect()->back()->with('success', 'Картина сохранена');
     }
@@ -86,7 +90,7 @@ class ImageController extends Controller
             $images->image = $filePath;
         }
         $images->save();
-        return redirect()->route('images')->with('success', 'Картинка обновлена');
+        return redirect()->back()->with('success', 'Картинка обновлена');
     }
 
     /**
@@ -97,7 +101,7 @@ class ImageController extends Controller
     {
         $city = Image::find($id);
         $city->delete();
-        return redirect()->route('images')->with('success', 'Картинка удалена');
+        return redirect()->back()->with('success', 'Картинка удалена');
     }
 
 }

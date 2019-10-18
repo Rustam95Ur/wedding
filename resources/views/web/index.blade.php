@@ -90,6 +90,17 @@
                         <h2>Рассадка гостей</h2>
                     </div>
                 </div>
+                <div class="col col-xs-12 sortable-gallery">
+                    <div class="gallery-container gallery-fancybox masonry-gallery">
+                        @foreach($reservImages as $image)
+                            <div class="grid wedding">
+                                <a href="{{'/storage/'.$image->image}}" class="fancybox" data-fancybox-group="gall-1">
+                                    <img src="{{'/storage/'.$image->image}}" alt="" class="img img-responsive">
+                                </a>
+                            </div>
+                        @endforeach
+                    </div>
+                </div>
             </div> <!-- end section-title -->
         </div> <!-- end container -->
     </section>
@@ -149,7 +160,7 @@
             <div class="row">
                 <div class="col col-xs-12 sortable-gallery ">
                     <div class="owl-carousel owl-loaded owl-theme gallery-container gallery-fancybox">
-                        @foreach($images as $image)
+                        @foreach($galleryImages as $image)
                             <div class="grid wedding ">
                                 <a href="{{'/storage/'.$image->image}}" class="fancybox"
                                    data-fancybox-group="gall-1">
@@ -292,6 +303,17 @@
                     <div class="section-title">
                         <div class="vertical-line"><span><i class="fi flaticon-two"></i></span></div>
                         <h2>Фото отчет</h2>
+                    </div>
+                </div>
+                <div class="col col-xs-12 sortable-gallery">
+                    <div class="gallery-container gallery-fancybox masonry-gallery">
+                        @foreach($reportImages as $image)
+                            <div class="grid wedding">
+                                <a href="{{'/storage/'.$image->image}}" class="fancybox" data-fancybox-group="gall-1">
+                                    <img src="{{'/storage/'.$image->image}}" alt="" class="img img-responsive">
+                                </a>
+                            </div>
+                        @endforeach
                     </div>
                 </div>
             </div> <!-- end section-title -->

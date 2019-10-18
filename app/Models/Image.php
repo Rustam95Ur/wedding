@@ -6,6 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Image extends Model
 {
+
+    const TYPE_REPORT = 1;
+    const TYPE_GALLERY = 2;
+    const TYPE_RESERVE = 3;
     /**
      * The database table used by the model.
      *
@@ -19,7 +23,7 @@ class Image extends Model
      * @var array
      */
     protected $fillable = [
-        'image',
+        'image','type'
     ];
 
 }

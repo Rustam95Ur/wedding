@@ -53,10 +53,12 @@ Route::group(['middleware' => ['auth', 'activated', 'activity', 'checkblocked']]
 Route::group(['middleware' => ['auth', 'activated', 'activity', 'twostep', 'checkblocked']], function () {
 
     //  Homepage Route - Redirect based on user role is in controller.
+
     Route::get('/home', 'ReserveController@index')->name('reserve');
-    Route::get('/home/images', 'ImageController@index')->name('images');
-    Route::get('/home/image/add', 'ImageController@create')->name('image-add');
+    Route::get('/home/images/type/{type}', 'ImageController@index')->name('images');
+    Route::get('/home/image/add/{type}', 'ImageController@create')->name('image-add');
     Route::post('/home/image/save', 'ImageController@store')->name('image-save');
+
     Route::get('/home/image/edit/{id}', 'ImageController@edit')->name('image-edit');
     Route::get('/home/image/edit/{id}', 'ImageController@edit')->name('image-edit');
     Route::put('/home/image/update/{id}', 'ImageController@update')->name('image-update');

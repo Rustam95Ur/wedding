@@ -9,6 +9,7 @@
                     @csrf
                     <div class="form-group">
                         <input type="file" class="form-control" name="image" required>
+                        <input type="hidden" name="type" value="{{$id}}">
                     </div>
                     <input type="submit" class="btn btn-success" value="Сохранить">
                 </form>

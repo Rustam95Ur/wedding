@@ -4,8 +4,19 @@
         <div class="row">
             <div class="col-sm-12">
                 <div class="card">
+                    @switch($type)
+                        @case(1)
+                        <h2 class="text-center mt-3">Фото отчет</h2>
+                        @break
+                        @case(2)
+                        <h2 class="text-center mt-3">Галерея</h2>
+                        @break
+                        @case(3)
+                        <h2 class="text-center mt-3">Рассадка гостей</h2>
+                        @break
+                    @endswitch
                     <div class="col-md-12 text-center m-3">
-                        <a href="{{route('image-add')}}" class="btn btn-primary">Добавить картинку</a>
+                        <a href="{{route('image-add', $type)}}" class="btn btn-primary">Добавить картинку</a>
                     </div>
                     <table class="table">
                         <thead class="thead-dark">
